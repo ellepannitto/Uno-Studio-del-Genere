@@ -1,0 +1,370 @@
+MAT/01	LOGICA MATEMATICA	Scienze matematiche e informatiche
+MAT/02	ALGEBRA	Scienze matematiche e informatiche
+MAT/03	GEOMETRIA	Scienze matematiche e informatiche
+MAT/04	MATEMATICHE COMPLEMENTARI	Scienze matematiche e informatiche
+MAT/05	ANALISI MATEMATICA	Scienze matematiche e informatiche
+MAT/06	PROBABILITÀ E STATISTICA MATEMATICA	Scienze matematiche e informatiche
+MAT/07	FISICA MATEMATICA	Scienze matematiche e informatiche
+MAT/08	ANALISI NUMERICA	Scienze matematiche e informatiche
+MAT/09	RICERCA OPERATIVA	Scienze matematiche e informatiche
+INF/01	INFORMATICA 	Scienze matematiche e informatiche
+FIS/01	FISICA SPERIMENTALE	Scienze fisiche
+FIS/02	FISICA TEORICA, MODELLI E METODI MATEMATICI	Scienze fisiche
+FIS/03	FISICA DELLA MATERIA	Scienze fisiche
+FIS/04	FISICA NUCLEARE E SUBNUCLEARE	Scienze fisiche
+FIS/05	ASTRONOMIA E ASTROFISICA	Scienze fisiche
+FIS/06	FISICA PER IL SISTEMA TERRA E IL MEZZO CIRCUMTERRESTRE	Scienze fisiche
+FIS/07	FISICA APPLICATA (A BENI CULTURALI, AMBIENTALI, BIOLOGIA E MEDICINA)	Scienze fisiche
+FIS/08	DIDATTICA E STORIA DELLA FISICA 	Scienze fisiche
+CHIM/01	CHIMICA ANALITICA	Scienze chimiche
+CHIM/02	CHIMICA FISICA	Scienze chimiche
+CHIM/03	CHIMICA GENERALE E INORGANICA	Scienze chimiche
+CHIM/04	CHIMICA INDUSTRIALE	Scienze chimiche
+CHIM/05	SCIENZA E TECNOLOGIA DEI MATERIALI POLIMERICI	Scienze chimiche
+CHIM/06	CHIMICA ORGANICA	Scienze chimiche
+CHIM/07	FONDAMENTI CHIMICI DELLE TECNOLOGIE	Scienze chimiche
+CHIM/08	CHIMICA FARMACEUTICA	Scienze chimiche
+CHIM/09	FARMACEUTICO TECNOLOGICO APPLICATIVO	Scienze chimiche
+CHIM/10	CHIMICA DEGLI ALIMENTI	Scienze chimiche
+CHIM/11	CHIMICA E BIOTECNOLOGIA DELLE FERMENTAZIONI	Scienze chimiche
+CHIM/12	CHIMICA DELL'AMBIENTE E DEI BENI CULTURALI	Scienze chimiche
+GEO/01	PALEONTOLOGIA E PALEOECOLOGIA	Scienze della terra
+GEO/02	GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGICA	Scienze della terra
+GEO/03	GEOLOGIA STRUTTURALE	Scienze della terra
+GEO/04	GEOGRAFIA FISICA E GEOMORFOLOGIA	Scienze della terra
+GEO/05	GEOLOGIA APPLICATA	Scienze della terra
+GEO/06	MINERALOGIA	Scienze della terra
+GEO/07	PETROLOGIA E PETROGRAFIA	Scienze della terra
+GEO/08	GEOCHIMICA E VULCANOLOGIA	Scienze della terra
+GEO/09	GEORISORSE MINERARIE E APPLICAZIONI MINERALOGICO- PETROGRAFICHE PER L'AMBIENTE ED I BENI CULTURALI	Scienze della terra
+GEO/10	GEOFISICA DELLA TERRA SOLIDA	Scienze della terra
+GEO/11	GEOFISICA APPLICATA	Scienze della terra
+GEO/12	OCEANOGRAFIA E FISICA DELL'ATMOSFERA	Scienze della terra
+BIO/01	BOTANICA GENERALE	Scienze biologiche
+BIO/02	BOTANICA SISTEMATICA	Scienze biologiche
+BIO/03	BOTANICA AMBIENTALE E APPLICATA	Scienze biologiche
+BIO/04	FISIOLOGIA VEGETALE	Scienze biologiche
+BIO/05	ZOOLOGIA	Scienze biologiche
+BIO/06	ANATOMIA COMPARATA E CITOLOGIA	Scienze biologiche
+BIO/07	ECOLOGIA	Scienze biologiche
+BIO/08	ANTROPOLOGIA	Scienze biologiche
+BIO/09	FISIOLOGIA	Scienze biologiche
+BIO/10	BIOCHIMICA	Scienze biologiche
+BIO/11	BIOLOGIA MOLECOLARE	Scienze biologiche
+BIO/12	BIOCHIMICA CLINICA E BIOLOGIA MOLECOLARE CLINICA	Scienze biologiche
+BIO/13	BIOLOGIA APPLICATA	Scienze biologiche
+BIO/14	FARMACOLOGIA	Scienze biologiche
+BIO/15	BIOLOGIA FARMACEUTICA	Scienze biologiche
+BIO/16	ANATOMIA UMANA	Scienze biologiche
+BIO/17	ISTOLOGIA	Scienze biologiche
+BIO/18	GENETICA	Scienze biologiche
+BIO/19	MICROBIOLOGIA GENERALE	Scienze biologiche
+MED/01	STATISTICA MEDICA	Scienze mediche
+MED/02	STORIA DELLA MEDICINA	Scienze mediche
+MED/03	GENETICA MEDICA	Scienze mediche
+MED/04	PATOLOGIA GENERALE	Scienze mediche
+MED/05	PATOLOGIA CLINICA	Scienze mediche
+MED/06	ONCOLOGIA MEDICA	Scienze mediche
+MED/07	MICROBIOLOGIA E MICROBIOLOGIA CLINICA	Scienze mediche
+MED/08	ANATOMIA PATOLOGICA	Scienze mediche
+MED/09	MEDICINA INTERNA	Scienze mediche
+MED/10	MALATTIE DELL'APPARATO RESPIRATORIO	Scienze mediche
+MED/11	MALATTIE DELL'APPARATO CARDIOVASCOLARE	Scienze mediche
+MED/12	GASTROENTEROLOGIA	Scienze mediche
+MED/13	ENDOCRINOLOGIA	Scienze mediche
+MED/14	NEFROLOGIA	Scienze mediche
+MED/15	MALATTIE DEL SANGUE	Scienze mediche
+MED/16	REUMATOLOGIA	Scienze mediche
+MED/17	MALATTIE INFETTIVE	Scienze mediche
+MED/18	CHIRURGIA GENERALE	Scienze mediche
+MED/19	CHIRURGIA PLASTICA	Scienze mediche
+MED/20	CHIRURGIA PEDIATRICA E INFANTILE	Scienze mediche
+MED/21	CHIRURGIA TORACICA	Scienze mediche
+MED/22	CHIRURGIA VASCOLARE	Scienze mediche
+MED/23	CHIRURGIA CARDIACA	Scienze mediche
+MED/24	UROLOGIA	Scienze mediche
+MED/25	PSCHIATRIA	Scienze mediche
+MED/26	NEUROLOGIA	Scienze mediche
+MED/27	NEUROCHIRURGIA	Scienze mediche
+MED/28	MALATTIE ODONTOSTOMATOLOGICHE	Scienze mediche
+MED/29	CHIRURGIA MAXILLOFACCIALE	Scienze mediche
+MED/30	MALATTIE APPARATO VISIVO	Scienze mediche
+MED/31	OTORINOLARINGOIATRIA	Scienze mediche
+MED/32	AUDIOLOGIA	Scienze mediche
+MED/33	MALATTIE APPARATO LOCOMOTORE	Scienze mediche
+MED/34	MEDICINA FISICA E RIABILITATIVA	Scienze mediche
+MED/35	MALATTIE CUTANEE E VENEREE	Scienze mediche
+MED/36	DIAGNOSTICA PER IMMAGINI E RADIOTERAPIA	Scienze mediche
+MED/37	NEURORADIOLOGIA	Scienze mediche
+MED/38	PEDIATRIA GENERALE E SPECIALISTICA	Scienze mediche
+MED/39	NEUROPSICHIATRIA INFANTILE	Scienze mediche
+MED/40	GINECOLOGIA E OSTETRICIA	Scienze mediche
+MED/41	ANESTESIOLOGIA	Scienze mediche
+MED/42	IGIENE GENERALE E APPLICATA	Scienze mediche
+MED/43	MEDICINA LEGALE	Scienze mediche
+MED/44	MEDICINA DEL LAVORO	Scienze mediche
+MED/45	SCIENZE INFERMIERISTICHE GENERALI, CLINICHE E PEDIATRICHE	Scienze mediche
+MED/46	SCIENZE TECNICHE DI MEDICINA DI LABORATORIO	Scienze mediche
+MED/47	SCIENZE INFERMIERISTICHE OSTETRICO-GINECOLOGICHE	Scienze mediche
+MED/48	SCIENZE INFERMIERISTICHE E TECNICHE NEURO-PSICHIATRICHE E RIABILITATIVE	Scienze mediche
+MED/49	SCIENZE TECNICHE DIETETICHE APPLICATE	Scienze mediche
+MED/50	SCIENZE TECNICHE MEDICHE APPLICATE	Scienze mediche
+AGR/01	ECONOMIA ED ESTIMO RURALE	Scienze agrarie e veterinarie
+AGR/02	AGRONOMIA E COLTIVAZIONI ERBACEE	Scienze agrarie e veterinarie
+AGR/03	ARBORICOLTURA GENERALE E COLTIVAZIONI ARBOREE	Scienze agrarie e veterinarie
+AGR/04	ORTICOLTURA E FLORICOLTURA	Scienze agrarie e veterinarie
+AGR/05	ASSESTAMENTO FORESTALE E SELVICOLTURA	Scienze agrarie e veterinarie
+AGR/06	TECNOLOGIA DEL LEGNO E UTILIZZAZIONI FORESTALI	Scienze agrarie e veterinarie
+AGR/07	GENETICA AGRARIA	Scienze agrarie e veterinarie
+AGR/08	IDRAULICA AGRARIA E SISTEMAZIONI IDRAULICO-FORESTALI	Scienze agrarie e veterinarie
+AGR/09	MECCANICA AGRARIA	Scienze agrarie e veterinarie
+AGR/10	COSTRUZIONI RURALI E TERRITORIO AGROFORESTALE	Scienze agrarie e veterinarie
+AGR/11	ENTOMOLOGIA GENERALE E APPLICATA	Scienze agrarie e veterinarie
+AGR/12	PATOLOGIA VEGETALE	Scienze agrarie e veterinarie
+AGR/13	CHIMICA AGRARIA	Scienze agrarie e veterinarie
+AGR/14	PEDOLOGIA	Scienze agrarie e veterinarie
+AGR/15	SCIENZE E TECNOLOGIE ALIMENTARI	Scienze agrarie e veterinarie
+AGR/16	MICROBIOLOGIA AGRARIA	Scienze agrarie e veterinarie
+AGR/17	ZOOTECNICA GENERALE E MIGLIORAMENTO GENETICO	Scienze agrarie e veterinarie
+AGR/18	NUTRIZIONE E ALIMENTAZIONE ANIMALE	Scienze agrarie e veterinarie
+AGR/19	ZOOTECNICA SPECIALE	Scienze agrarie e veterinarie
+AGR/20	ZOOCOLTURE	Scienze agrarie e veterinarie
+VET/01	ANATOMIA DEGLI ANIMALI DOMESTICI	Scienze agrarie e veterinarie
+VET/02	FISIOLOGIA VETERINARIA	Scienze agrarie e veterinarie
+VET/03	PATOLOGIA GENERALE E ANATOMIA PATOLOGICA VETERINARIA	Scienze agrarie e veterinarie
+VET/04	ISPEZIONE DEGLI ALIMENTI DI ORIGINE ANIMALE	Scienze agrarie e veterinarie
+VET/05	MALATTIE INFETTIVE DEGLI ANIMALI DOMESTICI	Scienze agrarie e veterinarie
+VET/06	PARASSITOLOGIA E MALATTIE PARASSITARIE DEGLI ANIMALI	Scienze agrarie e veterinarie
+VET/07	FARMACOLOGIA E TOSSICOLOGIA VETERINARIA	Scienze agrarie e veterinarie
+VET/08	CLINICA MEDICA VETERINARIA	Scienze agrarie e veterinarie
+VET/09	CLINICA CHIRURGICA VETERINARIA	Scienze agrarie e veterinarie
+VET/10	CLINICA OSTETRICA E GINECOLOGIA VETERINARIA	Scienze agrarie e veterinarie
+ICAR/01	IDRAULICA	Ingegneria civile e Architettura
+ICAR/02	COSTRUZIONI IDRAULICHE E MARITTIME E IDROLOGIA	Ingegneria civile e Architettura
+ICAR/03	INGEGNERIA SANITARIA-AMBIENTALE	Ingegneria civile e Architettura
+ICAR/04	STRADE, FERROVIE ED AEROPORTI	Ingegneria civile e Architettura
+ICAR/05	TRASPORTI	Ingegneria civile e Architettura
+ICAR/06	TOPOGRAFIA E CARTOGRAFIA	Ingegneria civile e Architettura
+ICAR/07	GEOTECNICA	Ingegneria civile e Architettura
+ICAR/08	SCIENZA DELLE COSTRUZIONI	Ingegneria civile e Architettura
+ICAR/09	TECNICA DELLE COSTRUZIONI	Ingegneria civile e Architettura
+ICAR/10	ARCHITETTURA TECNICA	Ingegneria civile e Architettura
+ICAR/11	PRODUZIONE EDILIZIA	Ingegneria civile e Architettura
+ICAR/12	TECNOLOGIA DELL'ARCHITETTURA	Ingegneria civile e Architettura
+ICAR/13	DISEGNO INDUSTRIALE	Ingegneria civile e Architettura
+ICAR/14	COMPOSIZIONE ARCHITETTONICA E URBANA	Ingegneria civile e Architettura
+ICAR/15	ARCHITETTURA DEL PAESAGGIO	Ingegneria civile e Architettura
+ICAR/16	ARCHITETTURA DEGLI INTERNI E ALLESTIMENTO	Ingegneria civile e Architettura
+ICAR/17	DISEGNO	Ingegneria civile e Architettura
+ICAR/18	STORIA DELL'ARCHITETTURA	Ingegneria civile e Architettura
+ICAR/19	RESTAURO	Ingegneria civile e Architettura
+ICAR/20	TECNICA E PIANIFICAZIONE URBANISTICA	Ingegneria civile e Architettura
+ICAR/21	URBANISTICA	Ingegneria civile e Architettura
+ICAR/22	ESTIMO	Ingegneria civile e Architettura
+ING-IND/01	ARCHITETTURA NAVALE	Ingegneria industriale e dell'informazione
+ING-IND/02	COSTRUZIONI E IMPIANTI NAVALI E MARINI	Ingegneria industriale e dell'informazione
+ING-IND/03	MECCANICA DEL VOLO	Ingegneria industriale e dell'informazione
+ING-IND/04	COSTRUZIONI E STRUTTURE AEROSPAZIALI	Ingegneria industriale e dell'informazione
+ING-IND/05	IMPIANTI E SISTEMI AEROSPAZIALI	Ingegneria industriale e dell'informazione
+ING-IND/06	FLUIDODINAMICA	Ingegneria industriale e dell'informazione
+ING-IND/07	PROPULSIONE AEROSPAZIALE	Ingegneria industriale e dell'informazione
+ING-IND/08	MACCHINE A FLUIDO	Ingegneria industriale e dell'informazione
+ING-IND/09	SISTEMI PER L'ENERGIA E L'AMBIENTE	Ingegneria industriale e dell'informazione
+ING-IND/10	FISICA TECNICA INDUSTRIALE	Ingegneria industriale e dell'informazione
+ING-IND/11	FISICA TECNICA AMBIENTALE	Ingegneria industriale e dell'informazione
+ING-IND/12	MISURE MECCANICHE E TERMICHE	Ingegneria industriale e dell'informazione
+ING-IND/13	MECCANICA APPLICATA ALLE MACCHINE	Ingegneria industriale e dell'informazione
+ING-IND/14	PROGETTAZIONE MECCANICA E COSTRUZIONE DI MACCHINE	Ingegneria industriale e dell'informazione
+ING-IND/15	DISEGNO E METODI DELL'INGEGNERIA INDUSTRIALE	Ingegneria industriale e dell'informazione
+ING-IND/16	TECNOLOGIE E SISTEMI DI LAVORAZIONE	Ingegneria industriale e dell'informazione
+ING-IND/17	IMPIANTI INDUSTRIALI MECCANICI	Ingegneria industriale e dell'informazione
+ING-IND/18	FISICA DEI REATTORI NUCLEARI	Ingegneria industriale e dell'informazione
+ING-IND/19	IMPIANTI NUCLEARI	Ingegneria industriale e dell'informazione
+ING-IND/20	MISURE E STRUMENTAZIONE NUCLEARI	Ingegneria industriale e dell'informazione
+ING-IND/21	METALLURGIA	Ingegneria industriale e dell'informazione
+ING-IND/22	SCIENZA E TECNOLOGIA DEI MATERIALI	Ingegneria industriale e dell'informazione
+ING-IND/23	CHIMICA FISICA APPLICATA	Ingegneria industriale e dell'informazione
+ING-IND/24	PRINCIPI DI INGEGNERIA CHIMICA	Ingegneria industriale e dell'informazione
+ING-IND/25	IMPIANTI CHIMICI	Ingegneria industriale e dell'informazione
+ING-IND/26	TEORIA DELLO SVILUPPO DEI PROCESSI CHIMICI	Ingegneria industriale e dell'informazione
+ING-IND/27	CHIMICA INDUSTRIALE E TECNOLOGICA	Ingegneria industriale e dell'informazione
+ING-IND/28	INGEGNERIA E SICUREZZA DEGLI SCAVI	Ingegneria industriale e dell'informazione
+ING-IND/29	INGEGNERIA DELLE MATERIE PRIME	Ingegneria industriale e dell'informazione
+ING-IND/30	IDROCARBURI E FLUIDI DEL SOTTOSUOLO	Ingegneria industriale e dell'informazione
+ING-IND/31	ELETTROTECNICA	Ingegneria industriale e dell'informazione
+ING-IND/32	CONVERTITORI, MACCHINE E AZIONAMENTI ELETTRICI	Ingegneria industriale e dell'informazione
+ING-IND/33	SISTEMI ELETTRICI PER L'ENERGIA	Ingegneria industriale e dell'informazione
+ING-IND/34	BIOINGEGNERIA INDUSTRIALE	Ingegneria industriale e dell'informazione
+ING-IND/35	INGEGNERIA ECONOMICO-GESTIONALE	Ingegneria industriale e dell'informazione
+ING-INF/01	ELETTRONICA	Ingegneria industriale e dell'informazione
+ING-INF/02	CAMPI ELETTROMAGNETICI	Ingegneria industriale e dell'informazione
+ING-INF/03	TELECOMUNICAZIONI	Ingegneria industriale e dell'informazione
+ING-INF/04	AUTOMATICA	Ingegneria industriale e dell'informazione
+ING-INF/05	SISTEMI DI ELABORAZIONE DELLE INFORMAZIONI	Ingegneria industriale e dell'informazione
+ING-INF/06	BIOINGEGNERIA ELETTRONICA E INFORMATICA	Ingegneria industriale e dell'informazione
+ING-INF/07	MISURE ELETTRICHE E ELETTRONICHE	Ingegneria industriale e dell'informazione
+L-ANT/01	PREISTORIA E PROTOSTORIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/02	STORIA GRECA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/03	STORIA ROMANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/04	NUMISMATICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/05	PAPIROLOGIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/06	ETRUSCOLOGIA E ANTICHITÀ ITALICHE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/07	ARCHEOLOGIA CLASSICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/08	ARCHEOLOGIA CRISTIANA E MEDIEVALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/09	TOPOGRAFIA ANTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ANT/10	METODOLOGIE DELLA RICERCA ARCHEOLOGICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/01	STORIA DELL'ARTE MEDIEVALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/02	STORIA DELL'ARTE MODERNA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/03	STORIA DELL'ARTE CONTEMPORANEA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/04	MUSEOLOGIA E CRITICA ARTISTICA E DEL RESTAURO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/05	DISCIPLINE DELLO SPETTACOLO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/06	CINEMA, FOTOGRAFIA E TELEVISIONE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/07	MUSICOLOGIA E STORIA DELLA MUSICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-ART/08	ETNOMUSICOLOGIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/01	CIVILTÀ EGEE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/02	LINGUA E LETTERATURA GRECA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/03	FILOLOGIA ITALICA, ILLIRICA, CELTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/04	LINGUA E LETTERATURA LATINA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/05	FILOLOGIA CLASSICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/06	LETTERATURA CRISTIANA ANTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/07	CIVILTÀ BIZANTINA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/08	LETTERATURA LATINA MEDIEVALE E UMANISTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/09	FILOLOGIA E LINGUISTICA ROMANZA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/10	LETTERATURA ITALIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/11	LETTERATURA ITALIANA CONTEMPORANEA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/12	LINGUISTICA ITALIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/13	FILOLOGIA DELLA LETTERATURA ITALIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/14	CRITICA LETTERARIA E LETTERATURE COMPARATE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-FIL-LET/15	FILOLOGIA GERMANICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/01	GLOTTOLOGIA E LINGUISTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/02	DIDATTICA DELLE LINGUE MODERNE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/03	LETTERATURA FRANCESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/04	LINGUA E TRADUZIONE - LINGUA FRANCESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/05	LETTERATURA SPAGNOLA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/06	LINGUA E LETTERATURE ISPANO-AMERICANE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/07	LINGUA E TRADUZIONE - LINGUA SPAGNOLA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/08	LETTERATURA PORTOGHESE E BRASILIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/09	LINGUA E TRADUZIONE - LINGUE PORTOGHESE E BRASILIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/10	LETTERATURA INGLESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/11	LINGUE E LETTERATURE ANGLO-AMERICANE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/12	LINGUA E TRADUZIONE - LINGUA INGLESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/13	LETTERATURA TEDESCA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/14	LINGUA E TRADUZIONE - LINGUA TEDESCA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/15	LINGUE E LETTERATURE NORDICHE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/16	LINGUA E LETTERATURA NEDERLANDESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/17	LINGUA E LETTERATURA ROMENA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/18	LINGUA E LETTERATURA ALBANESE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/19	FILOLOGIA UGRO-FINNICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/20	LINGUA E LETTERATURA NEOGRECA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-LIN/21	SLAVISTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/01	STORIA DEL VICINO ORIENTE ANTICO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/02	EGITTOLOGIA E CIVILTÀ COPTA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/03	ASSIRIOLOGIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/04	ANATOLISTICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/05	ARCHEOLOGIA E STORIA DELL'ARTE DEL VICINO ORIENTE ANTICO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/06	ARCHEOLOGIA FENICIO-PUNICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/07	SEMITISTICA - LINGUE E LETTERATURE DELL'ETIOPIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/08	EBRAICO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/09	LINGUE E LETTERATURE DELL'AFRICA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/10	STORIA DEI PAESI ISLAMICI	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/11	ARCHEOLOGIA E STORIA DELL'ARTE MUSULMANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/12	LINGUA E LETTERATURA ARABA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/13	ARMENISTICA, CAUCASOLOGIA, MONGOLISTICA E TURCOLOGIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/14	FILOLOGIA, RELIGIONI E STORIA DELL'IRAN	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/15	LINGUA E LETTERATURA PERSIANA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/16	ARCHEOLOGIA E STORIA DELL'ARTE DELL'INDIA E DELL'ASIA CENTRALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/17	FILOSOFIE, RELIGIONI E STORIA DELL'INDIA E DELL'ASIA CENTRALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/18	INDOLOGIA E TIBETOLOGIA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/19	LINGUE E LETTERATURE MODERNE DEL SUBCONTINENTE INDIANO	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/20	ARCHEOLOGIA, STORIA DELL'ARTE E FILOSOFIE DELL'ASIA ORIENTALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/21	LINGUE E LETTERATURE DELLA CINA E DELL'ASIA SUD-ORIENTALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/22	LINGUE E LETTERATURE DEL GIAPPONE E DELLA COREA	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+L-OR/23	STORIA DELL'ASIA ORIENTALE E SUD-ORIENTALE	Scienze dell'antichità, filologico-letterarie e storico-artistiche
+M-STO/01	STORIA MEDIEVALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/02	STORIA MODERNA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/03	STORIA DELL'EUROPA ORIENTALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/04	STORIA CONTEMPORANEA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/05	STORIA DELLA SCIENZA E DELLE TECNICHE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/06	STORIA DELLE RELIGIONI	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/07	STORIA DEL CRISTIANESIMO E DELLE CHIESE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/08	ARCHIVISTICA, BIBLIOGRAFIA E BIBLIOTECONOMIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-STO/09	PALEOGRAFIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-DEA/01	DISCIPLINE DEMOETNOANTROPOLOGICHE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-GGR/01	GEOGRAFIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-GGR/02	GEOGRAFIA ECONOMICO-POLITICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/01	FILOSOFIA TEORETICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/02	LOGICA E FILOSOFIA DELLA SCIENZA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/03	FILOSOFIA MORALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/04	ESTETICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/05	FILOSOFIA E TEORIA DEI LINGUAGGI	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/06	STORIA DELLA FILOSOFIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/07	STORIA DELLA FILOSOFIA ANTICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-FIL/08	STORIA DELLA FILOSOFIA MEDIEVALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PED/01	PEDAGOGIA GENERALE E SOCIALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PED/02	STORIA DELLA PEDAGOGIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PED/03	DIDATTICA E PEDAGOGIA SPECIALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PED/04	PEDAGOGIA SPERIMENTALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/01	PSICOLOGIA GENERALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/02	PSICOBIOLOGIA E PSICOLOGIA FISIOLOGICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/03	PSICOMETRIA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/04	PSICOLOGIA DELLO SVILUPPO E PSICOLOGIA DELL'EDUCAZIONE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/05	PSICOLOGIA SOCIALE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/06	PSICOLOGIA DEL LAVORO E DELLE ORGANIZZAZIONI	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/07	PSICOLOGIA DINAMICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-PSI/08	PSICOLOGIA CLINICA	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-EDF/01	METODI E DIDATTICHE DELLE ATTIVITÀ MOTORIE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+M-EDF/02	METODI E DIDATTICHE DELLE ATTIVITÀ SPORTIVE	Scienze storiche, filosofiche, pedagogiche e psicologiche
+IUS/01	DIRITTO PRIVATO	Scienze giuridiche
+IUS/02	DIRITTO PRIVATO COMPARATO	Scienze giuridiche
+IUS/03	DIRITTO AGRARIO	Scienze giuridiche
+IUS/04	DIRITTO COMMERCIALE	Scienze giuridiche
+IUS/05	DIRITTO DELL'ECONOMIA	Scienze giuridiche
+IUS/06	DIRITTO DELLA NAVIGAZIONE	Scienze giuridiche
+IUS/07	DIRITTO DEL LAVORO	Scienze giuridiche
+IUS/08	DIRITTO COSTITUZIONALE	Scienze giuridiche
+IUS/09	ISTITUZIONI DI DIRITTO PUBBLICO	Scienze giuridiche
+IUS/10	DIRITTO AMMINISTRATIVO	Scienze giuridiche
+IUS/11	DIRITTO CANONICO E DIRITTO ECCLESIASTICO	Scienze giuridiche
+IUS/12	DIRITTO TRIBUTARIO	Scienze giuridiche
+IUS/13	DIRITTO INTERNAZIONALE	Scienze giuridiche
+IUS/14	DIRITTO DELL'UNIONE EUROPEA	Scienze giuridiche
+IUS/15	DIRITTO PROCESSUALE CIVILE	Scienze giuridiche
+IUS/16	DIRITTO PROCESSUALE PENALE	Scienze giuridiche
+IUS/17	DIRITTO PENALE	Scienze giuridiche
+IUS/18	DIRITTO ROMANO E DIRITTI DELL'ANTICHITÀ	Scienze giuridiche
+IUS/19	STORIA DEL DIRITTO MEDIEVALE E MODERNO	Scienze giuridiche
+IUS/20	FILOSOFIA DEL DIRITTO	Scienze giuridiche
+IUS/21	DIRITTO PUBBLICO COMPARATO	Scienze giuridiche
+SECS-P/01	ECONOMIA POLITICA	Scienze economiche e statistiche
+SECS P/02	POLITICA ECONOMICA	Scienze economiche e statistiche
+SECS-P/03	SCIENZA DELLE FINANZE	Scienze economiche e statistiche
+SECS-P/04	STORIA DEL PENSIERO ECONOMICO	Scienze economiche e statistiche
+SECS-P/05	ECONOMETRIA	Scienze economiche e statistiche
+SECS-P/06	ECONOMIA APPLICATA	Scienze economiche e statistiche
+SECS-P/07	ECONOMIA AZIENDALE	Scienze economiche e statistiche
+SECS-P/08	ECONOMIA E GESTIONE DELLE IMPRESE	Scienze economiche e statistiche
+SECS-P/09	FINANZA AZIENDALE	Scienze economiche e statistiche
+SECS-P/10	ORGANIZZAZIONE AZIENDALE	Scienze economiche e statistiche
+SECS-P/11	ECONOMIA DEGLI INTERMEDIARI FINANZIARI	Scienze economiche e statistiche
+SECS-P/12	STORIA ECONOMICA	Scienze economiche e statistiche
+SECS-P/13	SCIENZE MERCEOLOGICHE	Scienze economiche e statistiche
+SECS-S/01	STATISTICA	Scienze economiche e statistiche
+SECS-S/02	STATISTICA PER LA RICERCA SPERIMENTALE E TECNOLOGICA	Scienze economiche e statistiche
+SECS-S/03	STATISTICA ECONOMICA	Scienze economiche e statistiche
+SECS-S/04	DEMOGRAFIA	Scienze economiche e statistiche
+SECS-S/05	STATISTICA SOCIALE	Scienze economiche e statistiche
+SECS-S/06	METODI MATEMATICI DELL'ECONOMIA E DELLE SCIENZE ATTUARIALI E FINANZIARIE	Scienze economiche e statistiche
+SPS/01	FILOSOFIA POLITICA	Scienze politiche e sociali
+SPS/02	STORIA DELLE DOTTRINE POLITICHE	Scienze politiche e sociali
+SPS/03	STORIA DELLE ISTITUZIONI POLITICHE	Scienze politiche e sociali
+SPS/04	SCIENZA POLITICA	Scienze politiche e sociali
+SPS/05	STORIA E ISTITUZIONI DELLE AMERICHE	Scienze politiche e sociali
+SPS/06	STORIA DELLE RELAZIONI INTERNAZIONALI	Scienze politiche e sociali
+SPS/07	SOCIOLOGIA GENERALE	Scienze politiche e sociali
+SPS/08	SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI	Scienze politiche e sociali
+SPS/09	SOCIOLOGIA DEI PROCESSI ECONOMICI E DEL LAVORO	Scienze politiche e sociali
+SPS/10	SOCIOLOGIA DELL'AMBIENTE E DEL TERRITORIO	Scienze politiche e sociali
+SPS/11	SOCIOLOGIA DEI FENOMENI POLITICI	Scienze politiche e sociali
+SPS/12	SOCIOLOGIA GIURIDICA, DELLA DEVIANZA E MUTAMENTO SOCIALE	Scienze politiche e sociali
+SPS/13	STORIA E ISTITUZIONI DELL'AFRICA	Scienze politiche e sociali
+SPS/14	STORIA E ISTITUZIONI DELL'ASIA	Scienze politiche e sociali

@@ -1,0 +1,74 @@
+PARMA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PARMA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TORINO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TORINO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+GENOVA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=GENOVA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TRENTO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TRENTO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+ROMA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=ROMA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+NAPOLI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=NAPOLI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PISA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PISA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MILANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MILANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PALERMO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PALERMO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SEGRATE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SEGRATE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+CATANZARO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=CATANZARO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PORANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PORANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LEGNARO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LEGNARO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MONTELIBRETTI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MONTELIBRETTI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MONTEROTONDO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MONTEROTONDO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LODI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LODI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BARI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BARI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+FIRENZE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=FIRENZE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LIVORNO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LIVORNO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+GROSSETO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=GROSSETO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BOLOGNA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BOLOGNA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SASSARI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SASSARI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+RENDE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=RENDE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+POZZUOLI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=POZZUOLI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+CATANIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=CATANIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PADOVA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PADOVA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TRIESTE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TRIESTE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+COMO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=COMO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SESTO FIORENTINO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SESTO+FIORENTINO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MESSINA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MESSINA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LECCE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LECCE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MASSA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MASSA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SIENA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SIENA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+REGGIO DI CALABRIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=REGGIO+DI+CALABRIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PAVIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PAVIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+CHIETI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=CHIETI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+CAGLIARI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=CAGLIARI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TITO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TITO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PERUGIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PERUGIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BRINDISI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BRINDISI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+FISCIANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=FISCIANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BRUGHERIO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BRUGHERIO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+FAENZA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=FAENZA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LAMEZIA TERME	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LAMEZIA+TERME&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+ORISTANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=ORISTANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+GRUGLIASCO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=GRUGLIASCO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+AVELLINO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=AVELLINO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+VENEZIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=VENEZIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+ANCONA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=ANCONA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LESINA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LESINA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LERICI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LERICI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MANGONE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MANGONE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+VIGEVANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=VIGEVANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+ERCOLANO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=ERCOLANO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+LECCO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=LECCO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+FERRARA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=FERRARA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SAN MICHELE ALL'ADIGE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SAN+MICHELE+ALL%27ADIGE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SAN GIULIANO MILANESE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SAN+GIULIANO+MILANESE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+L'AQUILA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=L%27AQUILA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+VERBANIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=VERBANIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BIELLA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BIELLA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+CASTELLAMMARE DEL GOLFO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=CASTELLAMMARE+DEL+GOLFO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MAZARA DEL VALLO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MAZARA+DEL+VALLO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TARANTO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TARANTO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+TRAPANI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=TRAPANI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BRESCIA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BRESCIA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+GRENOBLE	curl https://maps.googleapis.com/maps/api/geocode/xml?address=GRENOBLE&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MODENA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MODENA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+SALERNO	curl https://maps.googleapis.com/maps/api/geocode/xml?address=SALERNO&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+PORTICI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=PORTICI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+POTENZA	curl https://maps.googleapis.com/maps/api/geocode/xml?address=POTENZA&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+MONCALIERI	curl https://maps.googleapis.com/maps/api/geocode/xml?address=MONCALIERI&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+BRUXELLES	curl https://maps.googleapis.com/maps/api/geocode/xml?address=BRUXELLES&key=AIzaSyBNbSHpD55qfU-m2WbrhoPEEIAHFEIIKVE
+

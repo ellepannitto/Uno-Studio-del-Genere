@@ -1,0 +1,89 @@
+Torino	64801
+Politecnico Torino	28761
+Piemonte orientale Amedeo Avogadro	10030
+Scienze Gastronomiche	265
+Valle d'Aosta	1162
+Genova	32683
+Carlo Cattaneo	1762
+Insubria	8511
+telematica e-Campus Novedrate	6683
+Milano	60262
+Politecnico Milano	40132
+commerciale Luigi Bocconi Milano	13390
+Cattolica Sacro Cuore	36387
+Libera  Lingue e Comunicazione	4197
+Libera , Vita-Salute San Raffaele Milano	2001
+Milano-Bicocca	31924
+Bergamo	14335
+Brescia	14147
+Pavia	21372
+Libera  Bolzano	2658
+Trento	16508
+Verona	21887
+Ca' Foscari Venezia	19261
+Iuav Venezia	4684
+Padova	58190
+Udine	15179
+Trieste	16474
+Parma	25020
+Modena e Reggio Emilia	19514
+Bologna	77305
+Ferrara	15484
+Carlo Bo Urbino	13800
+Politecnica delle Marche - Ancona	15639
+Macerata	9773
+Camerino	6914
+Firenze	49863
+Pisa	45001
+Siena	15746
+per stranieri Siena	1133
+Perugia	23487
+per stranieri Perugia	1091
+Studi Tuscia	7342
+Roma La Sapienza	105885
+Roma Tor Vergata	30512
+Libera  Maria SSAssunta -Roma	6048
+Libera  internazionale sociali Guido Carli -Roma	7624
+Roma Foro Italico	2196
+Roma Tre	35302
+Campus Bio-Medico Roma	1564
+Libera  Studi Internazionali Roma	1194
+telematica Guglielmo Marconi Roma	14305
+telematica Unitelma Sapienza Roma	1645
+Europea Roma	871
+telematica internazionale UNINETTUNO Roma	8709
+Universitas Mercatorum Roma	249
+telematica Niccolò Cusano Roma	11491
+telematica San Raffaele Roma - già UNITEL	969
+Link Campus University Roma	1380
+Cassino	8554
+Studi Sannio	6193
+Universita telematica Giustino Fortunato Benevento	538
+Napoli Federico II	79314
+Napoli - Parthenope	14774
+L'Orientale Napoli	10302
+Suor Orsola Benincasa Napoli	8124
+Seconda  Napoli	26718
+Universita telematica Pegaso Napoli	3968
+Salerno	35010
+L'Aquila	23926
+Teramo	6628
+Gabriele D'Annunzio Chieti e Pescara	28461
+telematica non statale Leonardo da Vinci Torrevecchia Teatina	229
+Molise	7304
+Foggia	9407
+Bari	49877
+Politecnico Bari	10615
+Libera  Mediterranea Jean Monnet	1288
+Salento	18845
+Basilicata	7301
+Calabria	30454
+Catanzaro - Magna Grecia	10004
+Mediterranea Reggio Calabria	7403
+per stranieri Dante Alighieri Reggio Calabria	752
+Palermo	43359
+Messina	26379
+Libera  Sicilia Centrale KORE Enna	6008
+Catania	49621
+Sassari	13288
+Cagliari	27610

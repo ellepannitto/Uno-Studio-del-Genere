@@ -1,0 +1,441 @@
+
+
+<HTML>
+<HEAD>
+<TITLE>Elenco Dipendenti per Sede di Lavoro</TITLE>
+</HEAD>
+<BODY>
+
+<STYLE>TD.RigaInt{FONT-WEIGHT: bold;FONT-SIZE: 12px;COLOR: #0080c0;FONT-FAMILY: Times NewRoman; text-align:center;vertical-align:TOP} TD.RigaDispari{background-color:white; FONT-FAMILY: Times NewRoman;FONT-SIZE: x-small;vertical-align:TOP} TD.RigaPari{background-color: #efefef; FONT-FAMILY: Times NewRoman;FONT-SIZE: x-small;vertical-align:TOP} TD.RigaTotaleDett {COLOR: #0078b3;FONT-WEIGHT: bold;FONT-FAMILY: Times NewRoman;FONT-SIZE: x-small;vertical-align:TOP} TD.RigaTotaleDettNoBorder {COLOR: #0078b3;FONT-WEIGHT: bold;FONT-FAMILY: Times NewRoman;FONT-SIZE: x-small; vertical-align:TOP;BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none}TD.TitoloCNR{font-style: italic;FONT-WEIGHT: bold;FONT-SIZE: x-large;COLOR: #0080c0;FONT-FAMILY: Times NewRoman; text-align:center;vertical-align:TOP} TD.TitoloLine1{FONT-WEIGHT: bold;FONT-SIZE: medium;COLOR: #0080c0;FONT-FAMILY: Times NewRoman; text-align:center;vertical-align:TOP} TD.TitoloLine2{FONT-WEIGHT: bold;FONT-SIZE: x-medium;COLOR: #0080c0;FONT-FAMILY: Times NewRoman; text-align:left;vertical-align:TOP} .TitoloDirettore{FONT-WEIGHT: bold;FONT-SIZE: x-small;COLOR: red;FONT-FAMILY: Times NewRoman} TD.TitoloLine3{FONT-WEIGHT: bold;FONT-SIZE: x-small;COLOR: #0080c0;FONT-FAMILY: Times NewRoman; text-align:left;vertical-align:TOP} </STYLE><table border='1' cellspacing='0'><tr><td colspan=6 class='TitoloCNR'>Consiglio Nazionale delle Ricerche</td><tr><td width='70' class='TitoloLine1'>220000</td><td colspan=5 class='TitoloLine1'>ISTITUTO DEI MATERIALI PER L'ELETTRONICA ED IL MAGNETISMO                                                                                                       &nbsp;-&nbsp;IMEM      </td></tr><tr><td colspan=4 class='TitoloLine2'>PARCO AREA DELLE SCIENZE, 37/A - FONTANINI                                                                                                                      <BR>43124 - PARMA                              <BR><BR><SPAN class='TitoloDirettore'>Direttore: IANNOTTA SALVATORE                                          </SPAN></td><TD colspan=2 class='TitoloLine3'>Tel.: 0521.2691      &nbsp;-&nbsp;0521.251205    <BR>Fax: 0521.269206    <BR>Email: direttore-imem@imem.cnr.it              <BR></TD></TR></TABLE><Table BORDER='1' align='center'><TR><TD colspan=6>&nbsp;</TD></TR><TR><td  STYLE='FONT-WEIGHT: bold;FONT-SIZE: 14px;COLOR: blue;FONT-FAMILY: Times NewRoman' align='center' colspan=6>PERSONALE APPARTENENTE ALLA STRUTTURA</td></tr><TR><TD STYLE='FONT-WEIGHT: bold;FONT-SIZE: 14px;COLOR: #ff0000;FONT-FAMILY: Times NewRoman' colspan=6>Contratto Lavoro Diritto Privato</TD></TR>
+					  <tr>
+					    <td class='RigaInt' width='50'>Matr.</td>
+					    <td class='RigaInt' width='200'>Nominativo</td>
+					    <td class='RigaInt' width='80'>Data Assunzione</td>
+					    <td class='RigaInt' width='20'>Liv.</td>
+					    <td class='RigaInt' width='150'>Profilo</td>
+					    <td class='RigaInt' width='80'>Rapporto</td>
+						</tr>
+					    
+							<tr>
+							<td class='RigaDispari' align='center'>9034</td>
+							<td class='RigaDispari'>IANNOTTA SALVATORE                                          </td>
+							<td class='RigaDispari' align='center'>01/12/2013</td>				
+							<td class='RigaDispari' align='center'>00</td>
+							<td class='RigaDispari'>	DIRETTORE DI ISTITUTO</td>
+							<td class='RigaDispari' align='center'>D.P.</TD>
+							</tr>
+						<TR><TD colspan=6>&nbsp;</TD></TR><TR><TD STYLE='FONT-WEIGHT: bold;FONT-SIZE: 14px;COLOR: #ff0000;FONT-FAMILY: Times NewRoman' colspan=6>Personale a tempo indeterminato</TD></TR>
+					  <tr>
+					    <td class='RigaInt' width='50'>Matr.</td>
+					    <td class='RigaInt' width='200'>Nominativo</td>
+					    <td class='RigaInt' width='80'>Data Assunzione</td>
+					    <td class='RigaInt' width='20'>Liv.</td>
+					    <td class='RigaInt' width='150'>Profilo</td>
+					    <td class='RigaInt' width='80'>Rapporto</td>
+						</tr>
+					    
+							<tr>
+							<td class='RigaDispari' align='center'>17</td>
+							<td class='RigaDispari'>ALBERTINI FRANCA                                            </td>
+							<td class='RigaDispari' align='center'>03/09/2001</td>				
+							<td class='RigaDispari' align='center'>02</td>
+							<td class='RigaDispari'>	I° Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>27635</td>
+							<td class='RigaPari'>EROKHIN VICTOR                                              </td>
+							<td class='RigaPari' align='center'>16/02/2009</td>				
+							<td class='RigaPari' align='center'>02</td>
+							<td class='RigaPari'>	I° Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>6183</td>
+							<td class='RigaDispari'>FERRARI CLAUDIO                                             </td>
+							<td class='RigaDispari' align='center'>16/02/1985</td>				
+							<td class='RigaDispari' align='center'>02</td>
+							<td class='RigaDispari'>	I° Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>27537</td>
+							<td class='RigaPari'>IVANOVA TATIANA                                             </td>
+							<td class='RigaPari' align='center'>14/04/2008</td>				
+							<td class='RigaPari' align='center'>02</td>
+							<td class='RigaPari'>	I° Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>1739</td>
+							<td class='RigaDispari'>MAZZER MASSIMO                                              </td>
+							<td class='RigaDispari' align='center'>02/03/1998</td>				
+							<td class='RigaDispari' align='center'>02</td>
+							<td class='RigaDispari'>	I° Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>39103</td>
+							<td class='RigaPari'>MOSCA ROBERTO                                               </td>
+							<td class='RigaPari' align='center'>16/02/1985</td>				
+							<td class='RigaPari' align='center'>02</td>
+							<td class='RigaPari'>	I° Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>8619</td>
+							<td class='RigaDispari'>ZAPPETTINI ANDREA                                           </td>
+							<td class='RigaDispari' align='center'>10/12/2001</td>				
+							<td class='RigaDispari' align='center'>02</td>
+							<td class='RigaDispari'>	I° Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>10344</td>
+							<td class='RigaPari'>BALDI GIACOMO                                               </td>
+							<td class='RigaPari' align='center'>01/02/2010</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>14531</td>
+							<td class='RigaDispari'>BERTONI GIOVANNI                                            </td>
+							<td class='RigaDispari' align='center'>01/12/2011</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>9723</td>
+							<td class='RigaPari'>BISSOLI FRANCESCO                                           </td>
+							<td class='RigaPari' align='center'>16/02/2009</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>11244</td>
+							<td class='RigaDispari'>BOSI MATTEO                                                 </td>
+							<td class='RigaDispari' align='center'>16/12/2009</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>8615</td>
+							<td class='RigaPari'>CABASSI RICCARDO                                            </td>
+							<td class='RigaPari' align='center'>03/12/2001</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>10102</td>
+							<td class='RigaDispari'>CALESTANI DAVIDE                                            </td>
+							<td class='RigaDispari' align='center'>01/02/2010</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>9677</td>
+							<td class='RigaPari'>CASOLI FRANCESCA                                            </td>
+							<td class='RigaPari' align='center'>16/02/2009</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>10902</td>
+							<td class='RigaDispari'>COPPEDE' NICOLA                                             </td>
+							<td class='RigaDispari' align='center'>17/10/2011</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>14792</td>
+							<td class='RigaPari'>D'ANGELO PASQUALE                                           </td>
+							<td class='RigaPari' align='center'>16/03/2012</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>14603</td>
+							<td class='RigaDispari'>DE JULIAN FERNANDEZ CESAR                                   </td>
+							<td class='RigaDispari' align='center'>16/10/2012</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>6722</td>
+							<td class='RigaPari'>FOGLIA SABRINA                                              </td>
+							<td class='RigaPari' align='center'>21/12/2001</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>8466</td>
+							<td class='RigaDispari'>FRIGERI PAOLA                                               </td>
+							<td class='RigaDispari' align='center'>03/09/2001</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>5138</td>
+							<td class='RigaPari'>GILIOLI EDMONDO                                             </td>
+							<td class='RigaPari' align='center'>28/12/2001</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>452</td>
+							<td class='RigaDispari'>LAZZARINI LAURA                                             </td>
+							<td class='RigaDispari' align='center'>01/09/1996</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>8816</td>
+							<td class='RigaPari'>NASI LUCIA                                                  </td>
+							<td class='RigaPari' align='center'>19/12/2001</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>14739</td>
+							<td class='RigaDispari'>PATTINI FRANCESCO                                           </td>
+							<td class='RigaDispari' align='center'>31/12/2012</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>17028</td>
+							<td class='RigaPari'>QUAGLIANO LUCIA GIACINTA                                    </td>
+							<td class='RigaPari' align='center'>16/03/1984</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>11294</td>
+							<td class='RigaDispari'>RAMPINO STEFANO                                             </td>
+							<td class='RigaDispari' align='center'>17/10/2011</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>11243</td>
+							<td class='RigaPari'>ROSSI FRANCESCA                                             </td>
+							<td class='RigaPari' align='center'>01/09/2009</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>9678</td>
+							<td class='RigaDispari'>SERAVALLI LUCA                                              </td>
+							<td class='RigaDispari' align='center'>16/02/2009</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>27666</td>
+							<td class='RigaPari'>STEFANCICH MARCO                                            </td>
+							<td class='RigaPari' align='center'>14/04/2008</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>11457</td>
+							<td class='RigaDispari'>TREVISI GIOVANNA                                            </td>
+							<td class='RigaDispari' align='center'>01/09/2009</td>				
+							<td class='RigaDispari' align='center'>03</td>
+							<td class='RigaDispari'>	Ricercatore</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>23003</td>
+							<td class='RigaPari'>WATTS BERNARD ENRICO                                        </td>
+							<td class='RigaPari' align='center'>03/09/2001</td>				
+							<td class='RigaPari' align='center'>03</td>
+							<td class='RigaPari'>	Ricercatore</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>1322</td>
+							<td class='RigaDispari'>ANTONACCI CLAUDIO                                           </td>
+							<td class='RigaDispari' align='center'>16/07/1975</td>				
+							<td class='RigaDispari' align='center'>04</td>
+							<td class='RigaDispari'>	Funzionario di amministrazione</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>6584</td>
+							<td class='RigaPari'>FERRO PATRIZIA                                              </td>
+							<td class='RigaPari' align='center'>01/04/1984</td>				
+							<td class='RigaPari' align='center'>04</td>
+							<td class='RigaPari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>9613</td>
+							<td class='RigaDispari'>RINALDI ISABELLA FRANCESCA                                  </td>
+							<td class='RigaDispari' align='center'>14/04/2008</td>				
+							<td class='RigaDispari' align='center'>05</td>
+							<td class='RigaDispari'>	Funzionario di amministrazione</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>39146</td>
+							<td class='RigaPari'>MAGNO ROSELLA                                               </td>
+							<td class='RigaPari' align='center'>01/06/1986</td>				
+							<td class='RigaPari' align='center'>05</td>
+							<td class='RigaPari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>19879</td>
+							<td class='RigaDispari'>SCOPA LEONARDO                                              </td>
+							<td class='RigaDispari' align='center'>21/11/1988</td>				
+							<td class='RigaDispari' align='center'>05</td>
+							<td class='RigaDispari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>8352</td>
+							<td class='RigaPari'>SECONDULFO ANTONIETTA                                       </td>
+							<td class='RigaPari' align='center'>15/04/2001</td>				
+							<td class='RigaPari' align='center'>05</td>
+							<td class='RigaPari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>39318</td>
+							<td class='RigaDispari'>MASSA ANTONELLA                                             </td>
+							<td class='RigaDispari' align='center'>31/12/1988</td>				
+							<td class='RigaDispari' align='center'>05</td>
+							<td class='RigaDispari'>	Collaboratore di amministrazione</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>12688</td>
+							<td class='RigaPari'>MARMIROLI PAOLO                                             </td>
+							<td class='RigaPari' align='center'>16/12/2010</td>				
+							<td class='RigaPari' align='center'>06</td>
+							<td class='RigaPari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>12690</td>
+							<td class='RigaDispari'>MARTORANA LUCA                                              </td>
+							<td class='RigaDispari' align='center'>16/12/2010</td>				
+							<td class='RigaDispari' align='center'>06</td>
+							<td class='RigaDispari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>11476</td>
+							<td class='RigaPari'>POLA MARCO                                                  </td>
+							<td class='RigaPari' align='center'>30/10/2012</td>				
+							<td class='RigaPari' align='center'>06</td>
+							<td class='RigaPari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>12689</td>
+							<td class='RigaDispari'>ROMEO ARMANDO                                               </td>
+							<td class='RigaDispari' align='center'>16/12/2010</td>				
+							<td class='RigaDispari' align='center'>06</td>
+							<td class='RigaDispari'>	Collaboratore tecnico enti di ricerca</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaPari' align='center'>3360</td>
+							<td class='RigaPari'>CARRA MARA                                                  </td>
+							<td class='RigaPari' align='center'>01/03/1983</td>				
+							<td class='RigaPari' align='center'>06</td>
+							<td class='RigaPari'>	Operatore tecnico</td>
+							<td class='RigaPari' align='center'>T.I.</TD>
+							</tr>
+						  
+							<tr>
+							<td class='RigaDispari' align='center'>4883</td>
+							<td class='RigaDispari'>DE SANCTIS ANTONIO                                          </td>
+							<td class='RigaDispari' align='center'>31/12/1988</td>				
+							<td class='RigaDispari' align='center'>06</td>
+							<td class='RigaDispari'>	Operatore tecnico</td>
+							<td class='RigaDispari' align='center'>T.I.</TD>
+							</tr>
+						<TR><TD colspan=6>&nbsp;</TD></TR></TABLE>
+    
+	<!--   ---------------------------------------------
+	       PERSONALE APPARTENENTE ALLA STRUTTURA  PRESSO ALTRE
+		   SEDI
+		   ---------------------------------------------	   
+	-->
+	</TABLE>
+	
+	<!--
+		   ---------------------------------------------
+	       PERSONALE APPARTENENTE AD ALTRE
+		   SEDI
+		   ---------------------------------------------	   
+	-->
+	
+	<tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE ALLA STRUTTURA</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Livello</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Profilo</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>Personale a tempo indeterminato</TD><td class='RigaTotaleDett' width='70' align='middle'>02</td><td class='RigaTotaleDett' width='300'>I° Ricercatore</td><td class='RigaTotaleDett' width='70' align='middle'>7</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>03</td><td class='RigaTotaleDett' width='300'>Ricercatore</td><td class='RigaTotaleDett' width='70' align='middle'>23</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>04</td><td class='RigaTotaleDett' width='300'>Funzionario di amministrazione</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>05</td><td class='RigaTotaleDett' width='300'>Funzionario di amministrazione</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>04</td><td class='RigaTotaleDett' width='300'>Collaboratore tecnico enti di ricerca</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>05</td><td class='RigaTotaleDett' width='300'>Collaboratore tecnico enti di ricerca</td><td class='RigaTotaleDett' width='70' align='middle'>3</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>06</td><td class='RigaTotaleDett' width='300'>Collaboratore tecnico enti di ricerca</td><td class='RigaTotaleDett' width='70' align='middle'>4</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>05</td><td class='RigaTotaleDett' width='300'>Collaboratore di amministrazione</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>06</td><td class='RigaTotaleDett' width='300'>Operatore tecnico</td><td class='RigaTotaleDett' width='70' align='middle'>2</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Personale a tempo indeterminato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>43</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><tr><td colspan=3 class='RigaTotaleDett' bgcolor='#fafec5'>Contratto Lavoro Diritto Privato</TD><td class='RigaTotaleDett' width='70' align='middle'>00</td><td class='RigaTotaleDett' width='300'>DIRETTORE DI ISTITUTO</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Contratto Lavoro Diritto Privato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>1</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR></TABLE><table border='0' cellspacing='0'><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente alla struttura</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'>44</font></strong></td></tr><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente ad altre Sedi</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'></font></strong></td></tr></table><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE ALLA STRUTTURA<BR>Riepilogo per Profilo</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Profilo</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>Personale a tempo indeterminato</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>I° Ricercatore</td><td class='RigaTotaleDett' width='70' align='middle'>7</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>Ricercatore</td><td class='RigaTotaleDett' width='70' align='middle'>23</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>Funzionario di amministrazione</td><td class='RigaTotaleDett' width='70' align='middle'>2</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>Collaboratore tecnico enti di ricerca</td><td class='RigaTotaleDett' width='70' align='middle'>8</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>Collaboratore di amministrazione</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>Operatore tecnico</td><td class='RigaTotaleDett' width='70' align='middle'>2</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Personale a tempo indeterminato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>43</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>Contratto Lavoro Diritto Privato</TD><td class='RigaTotaleDett' width='70' align='middle'>&nbsp;</td><td class='RigaTotaleDett' width='300'>DIRETTORE DI ISTITUTO</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Contratto Lavoro Diritto Privato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>1</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR></TABLE><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE ALLA STRUTTURA PRESSO ALTRE SEDI<BR>Riepilogo per Profilo</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Profilo</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr></TABLE><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE AD ALTRE SEDI<BR>Riepilogo per Profilo</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Profilo</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr></TABLE><table border='0' cellspacing='0'><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente alla struttura</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'>44</font></strong></td></tr><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente ad altre Sedi</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'>0</font></strong></td></tr></table><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE ALLA STRUTTURA<BR>Riepilogo per Livello</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' align='center' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Livello</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>Personale a tempo indeterminato</TD><td class='RigaTotaleDett' width='70' align='middle'>02</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>7</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>03</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>23</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>04</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>2</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>05</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>5</td></tr><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>&nbsp;</TD><td class='RigaTotaleDett' width='70' align='middle'>06</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>6</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Personale a tempo indeterminato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>43</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><tr><td colspan=3 class='RigaTotaleDett' ' &  ' bgcolor='#fafec5'>Contratto Lavoro Diritto Privato</TD><td class='RigaTotaleDett' width='70' align='middle'>00</td><td class='RigaTotaleDett' width='300'>&nbsp;</td><td class='RigaTotaleDett' width='70' align='middle'>1</td></tr><tr><td colspan=5 VAlign='top' width='300' align='right'><font face='Times New Roman' size='2' color=black>Totale Contratto Lavoro Diritto Privato</font></td><td width='70' align='middle'><font face='Times New Roman' size='2' color=black>1</font></td></TR><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR></TABLE><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE ALLA STRUTTURA PRESSO ALTRE SEDI<BR>Riepilogo per Livello</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' align='center' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Livello</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr></TABLE><tr><td colspan=6 VAlign='top' style='BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none'>&nbsp;</TD></TR><Table BORDER='1' align='center'><TR><td align='center' colspan=6><FONT color=blue size=4><STRONG>PERSONALE APPARTENENTE AD ALTRE SEDI<BR>Riepilogo per Livello</STRONG></FONT></td></tr><tr><td colspan=3 VAlign='top' width='330' bgcolor='#efefef'><font face='Times New Roman' size='3' color='#b93706'><strong>Riepilogo sede Lavoro</strong></font></td><td VAlign='top' width='20' align='center' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>Livello</strong></font></td><td VAlign='top' width='150' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>&nbsp;</strong></font></td><td VAlign='top' width='80' align='middle' bgcolor='#efefef'><font face='Times New Roman' size='2' color='#b93706'><strong>N. U.d.P.</strong></font></td></tr></TABLE><table border='0' cellspacing='0'><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente alla struttura</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'>44</font></strong></td></tr><tr><td colspan=5 VAlign='top'  align='right'><font face='Times New Roman' color=red size='3'><strong>Tot. Personale Appartenente ad altre Sedi</strong></font></td><td VAlign='top' align='middle'><strong><font face='Times New Roman' color='#ff0000' size='3'>0</font></strong></td></tr></table>
+</BODY>
+</html>

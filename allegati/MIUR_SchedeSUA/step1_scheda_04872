@@ -1,0 +1,2715 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="Universitaly" />
+<meta name="keywords" content="università, italia, istruzione, ateneo, facoltà, laurea, corsi, studio, studiare" />
+<meta name="msapplication-config" content="none" />
+    
+    <meta property="og:title" content="Universitaly - L'Università italiana a portata di click" />
+	<meta property="og:type" content="university" />
+	<meta property="og:image" content="http://www.universitaly.it/images/logo_small_transparent.png" />
+	<meta property="og:site_name" content="Universitaly" />
+	<meta property="fb:app_id" content="322414571155685" />
+    
+    <title>Universitaly - L'Università italiana a portata di click</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/cookie/style.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/ui/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/css/border-radius-prod.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/sua/style14.css" />
+    <script type="text/javascript" src="/js/public/jq/jquery.js"></script>
+<script type="text/javascript" src="/js/public/jq/ui/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/public/jq/admin.js"></script>
+<script type="text/javascript" src="/js/jquery.selectify.js"></script>
+<script type="text/javascript" src="/js/layout.js"></script>
+<!--[if IE]><script type="text/javascript" src="/js/layoutIE.js"></script><![endif]-->
+<script type="text/javascript" src="/js/landing-menu.js"></script>
+<script type="text/javascript" src="/js/sequence.jquery-min.js"></script>
+<script type="text/javascript" src="/js/scroll_load_page.js"></script>
+<script type="text/javascript" src="/js/public/jq/ui/jquery.ui.touch-punch.min.js"></script>
+<script type="text/javascript" src="/js/cookie/cookieconsent.js"></script>
+<script type="text/javascript" src="/js/cookie/cookie-eu.js"></script>
+    
+        <!--[if lt IE 8]><link rel="stylesheet" href="http://www.universitaly.it/css/bootstrap/bootstrap-ie7buttonfix.css"><![endif]-->
+		<!--[if IE 8]><link rel="stylesheet" href="http://www.universitaly.it/css/bootstrap/bootstrap-ie8buttonfix.css"><![endif]-->
+		
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script type='text/javascript' src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		  <script type='text/javascript' src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->
+    
+</head>
+
+<body>
+<div id="fb-root"></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('#pageNav button').click(function(){
+
+		if($(this).next("ul").is(":visible")){
+			// chiudo tutto
+			$("ul.usermenu").fadeOut();
+
+		} else {
+			// chiudo tutto e apro id
+			$("ul.usermenu").fadeOut();
+			$(this).next("ul").fadeIn();
+		}
+		
+	});
+
+	$('#email-log').click(function(){
+
+		$(this).val('');
+
+		});
+
+	$('#password').click(function(){
+
+		$(this).val('');
+
+		});
+
+	$("#myformsubmit").click(function(){
+
+		$('#myform').submit();
+
+		});
+	
+});
+</script>
+
+
+
+
+<div id="headerbar">
+<div id="loginbar">
+<div class="rfloat">
+
+<form action="/index.php/login" method="post" id="myform">
+
+<ul id="pageNav" style="margin-bottom: 0px;">
+<li class="navItem noborder">Accedi a UniversItaly:</li>
+<li class="navItem">
+<input class="text" type="text" name="email-log" id="email-log" value="e-mail" />
+&nbsp;
+<input class="text" type="password" name="password" id="password" value="password" />
+&nbsp;
+<input type="hidden" id="hidlogin" name="login" value="1" />
+&nbsp;
+<input type='hidden' name='query_string' value='a:3:{s:6:"module";s:6:"public";s:6:"action";s:14:"schedaCorsoSua";s:5:"corso";s:5:"04872";}' />
+<input type="submit" name="azione" value="Entra" style="display: none;" />
+<a href="#" id="myformsubmit">Entra</a></li>
+
+<li class="navItem"><a href="/index.php/resetPwd" class="registrazione">Perso la password?</a></li>
+<li class="navItem"><a href="/index.php/registration" class="registrazione">Perché e come registrarsi</a></li>
+
+</ul>
+
+</form>
+
+</div>
+</div>
+</div>
+
+
+
+
+<div id="wrapper">
+<div id="page" >
+<div id="container">
+	<div id="header">
+		<div id="header-left">
+		<a href="/index.php/"><img width="450" height="120" alt="Universitaly" src="/images/extra/logo-transparent.png" /></a> 
+		</div>
+    	<div id="header-int">
+           	<div id="enti">
+            	<!-- <a href="http://offf.miur.it"><img src="/images/off-f.png" /></a>
+<a href="http://www.indire.it/its/"><img src="/images/logo-its.png" /></a>
+<a href="http://www.afam.miur.it/"><img src="/images/miurafam.png" /></a> -->
+<a href="http://www.miur.it"><img alt="MIUR" src="/images/logo-miur.png" /></a>            </div>
+            
+                        
+            				<div id="lenguage">
+											<a href="http://www.universitaly.it/index.php/scheda/sua/04872?lang=it"><img alt="italiano on" src="/images/ita-on.png" /></a>						<a href="http://www.universitaly.it/index.php/scheda/sua/04872?lang=en"><img alt="inglese off" src="/images/eng-off.png" /></a>									</div>
+
+		
+
+         </div>
+    </div> <!-- fine header -->
+    
+    <div id="sidebar">
+    	<!-- <div id="search">
+	<input class="text" name="cerca" onclick="clear_text(this);" type="text" value="cerca" maxlength="30" />
+	<a id="submit" href="#" onclick="$('#dialog-search').dialog({modal: true}); return false;"></a>
+	<br />
+	<br />
+
+</div> -->
+         
+        <div id="seguici">
+        	<div id="follow_us_div">seguici su:</div>
+<ul>
+	<li><a href="http://www.facebook.com/universitaly"><img alt="facebook logo" src="/images/btn-fb.png" /></a></li>
+	<li><a href="https://twitter.com/#!/universitaly"><img alt="twitter logo" src="/images/btn-tw.png" /></a></li>
+
+<li><a href="http://www.youtube.com/user/universitaly?feature=results_main"><img alt="youtube logo" src="/images/btn-yt.png" /></a></li>
+	
+</ul>        </div> <!-- fine seguici -->
+        
+         
+        
+    </div> <!-- fine sidebar -->
+    
+    <div id="content">
+    
+    
+    
+        <div id="tabs-container">
+        	<ul class="tabs">
+            	
+<li class="tab-rosso-close landing inside border-radius" id="landing-studenti"><a href="#">Studenti</a></li>
+<li class="tab-giallo-close landing inside border-radius" id="landing-famiglie"><a href="#">Famiglie</a></li>
+<li class="tab-verde-close landing inside border-radius" id="landing-superiore"><a href="#">Scuola Superiore</a></li>
+<li class="tab-blu-close landing inside border-radius" id="landing-universita"><a href="#">Università</a></li>
+
+       		</ul>
+       		
+       		
+    	</div>
+        
+        <div id="carousel-int" style="display: none;">
+        	<div id="bg-carousel-int-studenti" class="landing-studenti landing-box border-radius" style="display: none;">
+	<ul>
+	    <li>Studente/Laureato	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/home">Compiere la giusta scelta</a></li>
+	        	<li><a class="landing" href="/index.php/students/dovestudiare">Le mappe delle sedi</a></li>
+	        	<li><a class="landing" href="/index.php/students/postlaurea">Il tuo percorso post-laurea</a></li>
+	        </ul>
+	    </li>
+	    <li>Sei straniero?	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/stranieri">Vuoi studiare in Italia?</a></li>
+	        </ul>
+	    </li>
+	    <li>Lavori?	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/lavoratore">Lavori e vuoi studiare?</a></li>
+	        </ul>
+	    </li>
+	
+		<li>Servizi studenti	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/servizi">Borse di studio, alloggi, sport e altri servizi</a></li>
+	        </ul>
+	    </li>
+	      	    <li>Disabili	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/disabili">Supporto agli studenti diversamente abili</a></li>
+	        </ul>
+	    </li>
+
+	    <li>Accesso Programmato			<ul>
+				<li><a class="landing" href="/index.php/highered/accessoprogrammatopresenta/anno/2014">Le prove di ammissione ai corsi ad accesso programmato</a></li>
+			</ul>
+		</li>
+		
+	    <li>Faq	    	<ul>
+	        	<li><a class="landing" href="/index.php/students/faq">Da dove partire per la scelta del percorso?</a></li>
+	        </ul>
+	    </li>
+	    
+	    
+		
+	    <li>Area riservata			<ul>
+				<li><a class="landing" href="/index.php/login">Accedi alla tua pagina personale</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+            
+<div id="bg-carousel-int-famiglie" class="landing-famiglie landing-box" style="display: none;">
+
+	<ul>
+		<li>Quale scelta?			<ul>
+				<li><a class="landing" href="/index.php/family/home">Conoscere i percorsi di studio</a></li>
+			</ul>
+		</li>
+		<li>Le mappe delle sedi			<ul>
+				<li><a class="landing" href="/index.php/family/presentamaps">Conoscere la collocazione geografica</a></li>
+			</ul>
+		</li>
+		
+		<li>Stranieri			<ul>
+				<li><a class="landing" href="/index.php/family/stranieri">Laurearsi in Italia</a></li>
+			</ul>
+		</li>
+		
+		<li>Disabili			<ul>
+				<li><a class="landing" href="/index.php/family/disabili">Il supporto agli studenti disabili</a></li>
+			</ul>
+		</li>
+				
+		<li>Costi e sussidi			<ul>
+				<li><a class="landing" href="/index.php/family/home">Conoscere le rette di ingresso e i sussidi di aiuto</a></li>
+			</ul>
+		</li>				
+		
+		<li>Faq			<ul>
+				<li><a class="landing" href="/index.php/family/faq">Domande frequenti</a></li>
+			</ul>
+		</li>
+		
+
+				
+		
+	
+	</ul>
+</div>
+            
+<div id="bg-carousel-int-superiore" class="landing-superiore landing-box" style="display: none;">
+
+	<ul>
+			
+		<li>Lauree scientifiche			 <ul>
+		        <li><a class="landing" href="/index.php/highered/laureescientifiche">Verifiche delle conoscenze per l'ingresso ai corsi di laurea scientifici</a></li>
+		    </ul>
+		</li>
+		
+		<li>Accesso programmato			 <ul>
+		        <li><a class="landing" href="/index.php/highered/accessoprogrammatopresenta/anno/2014">Le prove di ammissione ai corsi ad accesso programmato</a></li>
+		    </ul>
+		</li>			
+		
+		<li>Dati e ricerca			<ul>
+		        <li><a class="landing" href="/index.php/highered/anagrafe">Anagrafe degli Studenti</a></li>
+		        <li><a class="landing" href="/index.php/highered/anagrafe">Rilevazioni Studenti</a></li>
+		        <li><a class="landing" href="/index.php/highered/anagrafe">Iscritti</a></li>
+		    </ul>
+		</li>
+	   
+		<li>Faq			 <ul>
+		        <li><a class="landing" href="/index.php/highered/faq">Domande frequenti</a></li>
+		    </ul>
+		</li>
+		
+		<li>Area riservata			 <ul>
+		        <li><a class="landing" href="/index.php/highered/home">Accedi alla tua pagina personale</a></li>
+		    </ul>
+		</li>
+		
+	</ul>
+</div>
+            
+<div id="bg-carousel-int-universita" class="landing-universita landing-box" style="display: none;">
+	<ul>
+		<li>Le Universit&agrave;			
+			<ul>
+	        	<li><a class="landing" href="/index.php/university/universitaitalia">Gli Atenei si presentano</a></li>	        	
+				<li><a class="landing" href="/index.php/university/presentamaps/s/uni">Dove studiare</a></li>
+	    	</ul>	    		       
+		</li>
+		
+		<li>Le Accademie e le altre Istituzioni AFAM			<ul>
+	        	<li><a class="landing" href="/index.php/strutture/cercaAfam?tipo_strutt=A&amp;gruppo=A">Le Accademie si presentano</a></li>       	
+	        	<li><a class="landing" href="/index.php/strutture/cercaAfam?tipo_strutt=A&amp;gruppo=B">Le altre Istituzioni AFAM si presentano</a></li>       	
+				<li><a class="landing" href="/index.php/university/presentamaps/s/acc">Dove studiare</a></li>
+	    	</ul>	    		       
+		</li>
+		
+		<li>I Conservatori e gli Istituti Superiori di Studi Musicali			<ul>
+	        	<li><a class="landing" href="/index.php/strutture/cercaAfam?tipo_strutt=C&amp;gruppo=C">I Conservatori si presentano</a></li>       	
+	        	<li><a class="landing" href="/index.php/strutture/cercaAfam?tipo_strutt=C&amp;gruppo=D">Gli Istituti Superiori di Studi Musicali si presentano</a></li>       	
+				<li><a class="landing" href="/index.php/university/presentamaps/s/con">Dove studiare</a></li>
+	    	</ul>	    		       
+		</li>
+		
+		<li>Gli Istituti Tecnici Superiori(ITS)			<ul>
+	        	<li><a class="landing" href="/index.php/university/itsitalia">Gli ITS si presentano</a></li>    	
+				<li><a class="landing" href="/index.php/university/presentamaps/s/its">Dove studiare</a></li>
+	    	</ul>	    		       
+		</li>
+		
+		<li>Formazione		 	<ul>
+		        <li><a class="landing" href="/index.php/university/orientamento">Servizio Orientamento</a></li>				
+	    	</ul>
+		</li>
+			
+		
+	    <li>Verifiche delle Conoscenze			 <ul>
+		        <li><a class="landing" href="/index.php/university/laureescientifiche">Verifiche delle conoscenze per l'ingresso ai corsi</a>		        	
+		        
+		        </li>
+		        
+		    </ul>
+		</li>
+		
+				 
+	    
+
+		<li>Faq		 	<ul>
+	        	<li><a class="landing" href="/index.php/university/faq">Domande frequenti</a></li>
+	    	</ul>
+		</li>
+	    	    
+	    <li>Area riservata		 	<ul>
+	       		<li><a class="landing" href="/index.php/university/homeareariservata">Accedi alla tua pagina personale</a></li>
+	    	</ul>
+		</li>
+	    
+	</ul>
+	<br /><br /><br /><br />
+</div>        </div> <!-- fine carousel-int -->
+        
+         <div class="briciole">
+        
+          
+  </div>       
+                
+       
+       <div class="title-box-neutro title-box">
+       <h1 class="box-title">
+              
+               		</h1>
+       </div>        
+    </div> <!-- fine content -->
+    
+    
+    </div> <!-- fine container -->
+    
+    
+    
+           <div id="box-int-esteso-neutro" class="border-radius">
+        
+<div id="SUAheader">
+	<div id="SUAlogo">
+		<img src="/images/sua/logo-SUA.png" />	</div>
+	
+	<div id="SUAcredits_1">
+		PRESENTATO DA:<br />
+		<a href="http://www.anvur.org"><img src="/images/sua/logo-anvur.png" /></a>
+		<a href="http://www.anvur.org"><img src="/images/sua/logo-ava.png" /></a>		
+	</div>
+	<div id="SUAcredits_2">
+		UN PROGETTO DI:<br />
+		<a href="http://www.istruzione.it"><img src="/images/sua/logo-miur.png" /></a>
+	</div>
+	
+	<div id="SUAtitle">
+		LMG/01 - Magistrali in giurisprudenza<br />
+		GIURISPRUDENZA		
+		<br />
+		<img width="22" style="margin-top: 10px" src="/images/ico-pdf.png" />		<a style="font-size: 10pt;text-decoration: none" target="_blank" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?parte=2001&amp;vis_pdf=S&amp;selezione[]=A&amp;selezione[]=B&amp;selezione[]=C&amp;ID_RAD=1501350&amp;ID_RAD_CHECK=386f94ac8a6d82084df3c869d9b20542"> Scarica la scheda in formato PDF</a>		<br />
+		<p>
+			a.a. 2013/2014		</p>
+		
+	</div>	
+	
+</div>
+
+<div id="SUAtabs">
+	<ul>
+		<li><a href="#SUAtabs-1">Presentazione <br /> &nbsp;</a></li>
+		<li><a href="#SUAtabs-2">Sezione A <br />Obiettivi della Formazione</a></li>
+		<li><a href="#SUAtabs-3">Sezione B <br />Esperienza dello Studente</a></a></li>
+		<li><a href="#SUAtabs-4">Sezione C <br />Risultati della Formazione</a></a></li>
+	</ul>
+	<div id="SUAtabs-1">
+
+
+
+ 	
+
+		<div class="table-tab">
+			<div class="espandi">
+ 			    <div class="btn-espandi"><a href="#3" onclick=" $('#SCH').slideToggle('slow'); "><div class="SUA_arrow"></div><p>&nbsp;</p></a></div>
+ 			    <div class="titolo-espandi"><a href="#3" onclick=" $('#SCH').slideToggle('slow'); ">Informazioni generali sul Corso di Studi</a></div>
+ 			</div> 
+			<div id="SCH" class="hidden bianco" >
+					<span>
+					<table class="table-espandi">
+						<tr><td><strong>Universit&agrave;</strong></td><td>Universit&agrave; di PISA</td></tr>
+						<tr><td><strong>Nome del corso</strong></td><td>GIURISPRUDENZA</i> 
+						<tr><td><strong>Classe</strong></td><td>LMG/01 - Classe delle lauree magistrali in giurisprudenza</td></tr>
+						<tr><td><strong>Nome inglese</strong></td><td>5-year Master's Degree in Law</td></tr>
+						<tr><td><strong>Lingua in cui si tiene il corso</strong></td><td>italiano</td></tr>
+						<tr><td><strong>Eventuale indirizzo internet del corso di laurea</strong></td><td><a href="http://www.jus.unipi.it/" target="_blank">http://www.jus.unipi.it/</a></td></tr>
+						<tr><td><strong>Tasse</strong></td>
+						<td>
+							<a href="" target="_blank"></a>
+																					<br />Pdf inserito: <a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T61" target="_blank">visualizza</a>			
+						</td></tr>
+						<tr><td><strong>Modalit&agrave; di svolgimento</strong></td><td>convenzionale	</td></tr>
+					</table>
+					</span>
+			</div> 
+	</div> 
+
+		<div class="table-tab">
+			<div class="espandi">
+			    <div class="btn-espandi"><a href="#3" onclick=" $('#RES').slideToggle('slow'); "><div class="SUA_arrow"></div><p>&nbsp;</p></a></div>
+			    <div class="titolo-espandi"><a href="#3" onclick=" $('#RES').slideToggle('slow'); ">Referenti e Strutture</a></div>
+			</div>  
+			<div id="RES" class="hidden bianco" >
+				<span>
+				<table class="table-espandi">
+					<tr><td><strong>Presidente (o Referente o Coordinatore) del CdS</strong></td>
+					<td>GIARDINA Francesca
+																			</td></tr>
+					<tr><td><strong>Organo Collegiale di gestione del corso di studio</strong></td><td>CONSIGLIO DI CORSO DI STUDIO</td></tr>
+	
+												<tr><td><strong>Struttura didattica di riferimento ai fini amministrativi</strong></td>
+							<td>GIURISPRUDENZA
+														
+							</td></tr>
+												
+					<tr><td colspan=2><strong>Docenti di Riferimento</strong> 
+						<table class="table-espandi">
+								<tr><th>N.</th><th>COGNOME</th><th>NOME</th><th>SETTORE</th><th>QUALIFICA</th><th>PESO</th><th>TIPO SSD</th></tr>
+																																		<tr><td>1.<td>CALAMIA</td><td>Antonio Marcello</td><td>IUS/13</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>2.<td>CONSORTI</td><td>Pierluigi</td><td>IUS/11</td><td>PO</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>3.<td>DE FRANCESCO</td><td>Giovannangelo</td><td>IUS/17</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>4.<td>GRECO</td><td>Tommaso</td><td>IUS/20</td><td>PA</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>5.<td>GIARDINA</td><td>Francesca</td><td>IUS/01</td><td>PO</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>6.<td>GARGANI</td><td>Alberto</td><td>IUS/17</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>7.<td>MENCHINI</td><td>Sergio</td><td>IUS/15</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>8.<td>MARZADURI</td><td>Enrico Antonio</td><td>IUS/16</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>9.<td>MAZZOTTA</td><td>Oronzo</td><td>IUS/07</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>10.<td>NAVARRETTA</td><td>Emanuela</td><td>IUS/01</td><td>PO</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>11.<td>PASSAGLIA</td><td>Paolo</td><td>IUS/21</td><td>PA</td><td>1 </td><td>Caratterizzante</td></tr>
+																										<tr><td>12.<td>PETRUCCI</td><td>Aldo</td><td>IUS/18</td><td>PO</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>13.<td>ROMBOLI</td><td>Roberto</td><td>IUS/08</td><td>PO</td><td>1 </td><td>Base</td></tr>
+																										<tr><td>14.<td>TETI</td><td>Raffaele</td><td>IUS/04</td><td>PO</td><td>1 </td><td>Caratterizzante</td></tr>
+														</table>
+					</td></tr>
+	
+					<tr><td><strong>Rappresentanti Studenti</strong> 
+					<td colspan=2>
+															BEI GUIDO g.bei@studenti.unipi.it <br />
+															LA TERRA BELLINA GIOVANNI g.laterrabellina1@studenti.unipi.it <br />
+															GALLO CHIARA c.gallo5@studenti.unipi.it <br />
+															GRASSI GIAN GUIDO MARIA g.grassi2@studenti.unipi.it <br />
+															LIOI MARTINA m.lioi1@studenti.unipi.it <br />
+															PARISI GUIDO g.parisi4@studenti.unipi.it <br />
+															DI LILLO PIETRANGELO p.dilillo@studenti.unipi.it <br />
+												</td></tr>
+	
+					<tr><td><strong>Gruppo di gestione AQ</strong>
+					<td colspan=2>
+															FRANCESCA GIARDINA  <br />
+															PIERLUIGI CONSORTI  <br />
+															ELEONORA SIRSI  <br />
+															MARIA PIA SANVITO  <br />
+															VALERIA GESUALDI  <br />
+															MARINA LIOI  <br />
+												</td></tr>
+	
+					<tr><td><strong>Tutor</strong> 
+					<td colspan=2>
+															Pasqualino ALBI  <br />
+															Eugenio RIPEPE  <br />
+															Francesca GIARDINA  <br />
+															Tommaso GRECO  <br />
+															Umberto BRECCIA  <br />
+															Eleonora SIRSI  <br />
+															Enza PELLECCHIA  <br />
+															Simone MARINAI  <br />
+															Alberto GARGANI  <br />
+															Andrea PERTICI  <br />
+															Pierluigi CONSORTI  <br />
+															Maria Angela ZUMPANO  <br />
+															Francesco BARACHINI  <br />
+												</td></tr>
+		    </table>
+				</span>
+			</div>
+	</div>
+	
+													<div class="table-tab">
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T58T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>&nbsp;</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T58T').slideToggle('slow'); ">Il Corso di Studio in breve</a></div>
+					</div>  
+					<div id="T58T" class="hidden bianco" >
+						<span>
+						Il corso di laurea magistrale in Giurisprudenza è un corso di laurea quinquennale a ciclo unico. <br />
+Il percorso formativo è inteso a far acquisire le competenze necessarie per l'accesso non solo alle professioni legali tradizionali (avvocato, magistrato, notaio), ma anche alle funzioni di elevata responsabilità nei settori socio-economici e dell'informatica giuridica, nelle pubbliche amministrazioni, negli enti privati, nei sindacati, nelle organizzazioni comunitarie e internazionali. A questo fine, il corso è inteso a fornire: <br />
+- un'approfondita cultura giuridica di base comprensiva del sistema giuridico statale e comunitario, integrata da tecniche e metodologie casistiche; <br />
+- conoscenze storiche adeguate per la piena comprensione e valutazione degli istituti di diritto positivo alla luce della loro evoluzione storica; <br />
+- capacità di elaborare testi giuridici (normativi, negoziali e processuali) chiari ed efficaci, anche attraverso l'utilizzazione di strumenti informatici; <br />
+- capacità interpretative, di analisi casistica, di qualificazione giuridica (rapportando fatti a fattispecie), di comprensione, di rappresentazione, di valutazione e di consapevolezza per affrontare problemi interpretativi ed applicativi del diritto; <br />
+- una piena capacità di utilizzare gli strumenti di aggiornamento delle proprie competenze. <br />
+<br />
+Per consentire la realizzazione di tali obiettivi, la formazione è comprensiva di discipline sia di base sia caratterizzanti, comprendenti materie affini ed integrative in funzione dei principali settori professionali cui la laurea dà accesso. Particolare attenzione è dedicata agli aspetti tecnici e metodologici da utilizzare anche per gli approfondimenti settoriali successivi alla laurea. La preparazione è completata con l'insegnamento del linguaggio giuridico e delle principali forme espressive di almeno una delle principali lingue straniere di ambito comunitario, nonché dell'informatica giuridica. <br />
+						<br />
+																		<br />
+									
+						</span>
+					  <div class="btn-modifica">
+													  </div>
+					</div>
+				</div>
+			 		 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 	 
+    
+
+
+     
+
+    
+
+
+    
+
+  
+ 
+
+
+<div style="clear: both"></div></div>
+	<div id="SUAtabs-2">
+
+
+
+    
+
+
+					 
+								
+									<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#T3T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A1</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#T3T').slideToggle('slow'); ">Consultazione con le organizzazioni rappresentative - a livello nazionale e internazionale - della produzione di beni e servizi, delle professioni</a></div>
+						</div> 
+						 
+						<div id="T3T" class="hidden bianco" >
+							<span>
+							La nascita della laurea in Giurisprudenza è stata del tutto particolare e ha avuto un decorso eccezionale. Si è trattato di una istituzione obbligata, in virtù del DM 270/04, realizzata in anticipo rispetto alla successiva riforma del sistema dei corsi di studio, in tempi strettissimi e senza alcuna possibilità (e senza obbligo) di consultazione con qualsivoglia tipo di organizzazione o parte interessata.<br />
+Il corso di studio, tuttavia, in previsione del riesame annuale, nell'intento di verificare e valutare gli interventi mirati al miglioramento del corso stesso effettuerà le consultazioni con le organizzazioni maggiormente rappresentative nel proprio settore di interesse.<br />
+																							<br />
+																											<br />
+												
+														</span>
+						</div>
+					</div>
+				 
+								
+										<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#ST3T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A2.a</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#ST3T').slideToggle('slow'); ">Profilo professionale e sbocchi occupazionali e professionali previsti per i laureati</a></div>
+						</div>  
+						<div id="ST3T" class="hidden bianco">
+							<span>
+							<table class="table-int-tab">
+																							<tr><th colspan="2">Avvocato</th></tr>
+									<tr><td colspan="2"><b>funzione in un contesto di lavoro:</b><br />Funzioni di libero professionista esperto di diritto di elevata responsabilità<br />
+- essenziali nello svolgimento dei processi sia civili che penali (dove lavvocato compie atti processuali in nome della parte che rappresenta e ne espone, oralmente o per iscritto, le ragioni)<br />
+-  di primaria importanza e di larga diffusione a fini di consulenza legale e di assistenza legale stragiudiziale.</td></tr>
+									<tr><td colspan="2"><b>competenze associate alla funzione:</b><br />Approfondita cultura giuridica, capacità interpretative, di analisi casistica, di qualificazione giuridica, adeguate al compito di affrontare problemi interpretativi ed applicativi del diritto.</td></tr>
+									<tr><td colspan="2"><b>sbocchi professionali:</b><br />A seguito di apposito esame di abilitazione professionale e di iscrizione allalbo,  libera professione nello svolgimento delle funzioni sopra indicate.<br />
+Tali requisiti consentono lesercizio della professione presso tutte le magistrature, ad eccezione delle magistrature superiori (es. corte di cassazione, consiglio di stato, corte dei conti), per le quali è richiesta liscrizione ad uno speciale albo, consentita solo a coloro che abbiano esercitato la professione per almeno dodici anni.<br />
+</td></tr>
+																									<tr><th colspan="2">Magistrato</th></tr>
+									<tr><td colspan="2"><b>funzione in un contesto di lavoro:</b><br />Funzioni di altissima responsabilità consistenti nellaccertamento delle condizioni dellazione penale e nel suo esercizio, nellamministrazione della giustizia penale, civile, amministrativa, ecclesiastica nei diversi gradi del processo, nellemissione di sentenze e provvedimenti.<br />
+</td></tr>
+									<tr><td colspan="2"><b>competenze associate alla funzione:</b><br />Approfondita e impeccabile conoscenza del diritto, capacità interpretative, di analisi casistica, di qualificazione giuridica ai fini del migliore svolgimento dellattività di interpretazione e applicazione del diritto, capacità di redigere ogni tipo di atto legato alla funzione giurisdizionale.<br />
+</td></tr>
+									<tr><td colspan="2"><b>sbocchi professionali:</b><br />Le funzioni sopra indicate possono essere svolte solo a seguito del superamento di concorso pubblico a numero chiuso.</td></tr>
+																									<tr><th colspan="2">Notaio</th></tr>
+									<tr><td colspan="2"><b>funzione in un contesto di lavoro:</b><br />Funzioni di pubblico ufficiale, autorizzato a ricevere e redigere atti tra vivi e di ultima volontà, attribuire loro pubblica fede, custodirne il deposito, rilasciarne le copie, i certificati e gli estratti, unite a funzioni di libero professionista, in grado di svolgere attività a favore delle parti alle quali viene prestata consulenza. Le funzioni del notaio sono dettagliatamente e rigorosamente definite dalla legge.</td></tr>
+									<tr><td colspan="2"><b>competenze associate alla funzione:</b><br />Approfondita e impeccabile conoscenza del diritto, in particolare civile, commerciale e tributario, capacità di redigere atti di autonomia privata, di ultima volontà, di rilevanza societaria.<br />
+</td></tr>
+									<tr><td colspan="2"><b>sbocchi professionali:</b><br />Le funzioni sopra indicate possono essere svolte solo a seguito del superamento di concorso pubblico a numero chiuso, preceduto da un periodo di pratica presso uno studio notarile della durata di due anni.</td></tr>
+																									<tr><th colspan="2">Esperto legale in imprese</th></tr>
+									<tr><td colspan="2"><b>funzione in un contesto di lavoro:</b><br />Funzioni di elevata responsabilità nei settori in continua espansione del diritto delleconomia (attività dimpresa, servizi assicurativi e creditizi), dirette a organizzare e dirigere i servizi e le attività aziendali (funzioni gestorie e direttive) e a fornire consulenza nellinterpretazione e applicazione delle regole di governo delleconomia (funzione consultiva).<br />
+</td></tr>
+									<tr><td colspan="2"><b>competenze associate alla funzione:</b><br />Approfondite conoscenze degli aspetti legali propri delle attività di impresa, capacità di fornire assistenza e consulenza legale allimpresa in cui viene prestata lattività professionale.<br />
+</td></tr>
+									<tr><td colspan="2"><b>sbocchi professionali:</b><br />Aziende e imprese la cui attività comporta necessità di adeguate competenze legali per lo svolgimento di attività economica organizzata e per la cura dei rapporti con enti o soggetti esterni (sindacati, altre imprese).</td></tr>
+																									<tr><th colspan="2">Esperto legale in enti pubblici</th></tr>
+									<tr><td colspan="2"><b>funzione in un contesto di lavoro:</b><br />Funzioni di elevata responsabilità dirette ad affrontare gli aspetti legali delle attività della Pubblica Amministrazione, nelle sue diverse branche a articolazioni. Può trattarsi, a seconda del settore di riferimento, di funzioni di varia natura: ruoli dirigenziali della P.A., a livello statale e locale, carriera diplomatica, carriera di funzionario delle organizzazioni internazionali.</td></tr>
+									<tr><td colspan="2"><b>competenze associate alla funzione:</b><br />Capacità di redigere atti amministrativi, di svolgere compiti di gestione e di organizzazione degli uffici della P.A., di fornire assistenza e rappresentanza legale in giudizio, in particolare in contenziosi amministrativi, capacità di elaborare testi giuridici (normativi, negoziali e processuali).</td></tr>
+									<tr><td colspan="2"><b>sbocchi professionali:</b><br />Tutti i settori della Pubblica Amministrazione che richiedono elevate competenze giuridiche.</td></tr>
+																							</table>
+							</span>
+							</div>
+					</div>
+
+										<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#ST23T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A2.b</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#ST23T').slideToggle('slow'); ">Il corso prepara alla professione di (codifiche ISTAT)</a></div>
+						</div>  
+						<div id="ST23T" class="hidden bianco">
+							<span>
+							<table class="table-espandi">
+																	<tr><td>
+									<ol>
+																			<li>Avvocati - (2.5.2.1.0)
+										</li>
+																			<li>Esperti legali in imprese - (2.5.2.2.1)
+										</li>
+																			<li>Esperi legali in enti pubblici - (2.5.2.2.2)
+										</li>
+																			<li>Notai - (2.5.2.3.0)
+										</li>
+																			<li>Magistrati - (2.5.2.4.0)
+										</li>
+																		</ol>
+									</td></tr>
+															</table>
+							</span>
+						</div>
+					</div>
+				 
+								 
+								 
+			 
+		 
+								
+									<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#T12T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A3</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#T12T').slideToggle('slow'); ">Requisiti di ammissione</a></div>
+						</div> 
+						 
+						<div id="T12T" class="hidden bianco" >
+							<span>
+							Oltre al possesso di un diploma di scuola secondaria superiore, o altro titolo di studio conseguito all'estero e riconosciuto idoneo, per l'ammissione al Corso è richiesto il possesso o l'acquisizione di una buona preparazione iniziale nonché le seguenti conoscenze specifiche: elementi culturali di base nell'ambito disciplinare storico,  filosofico, economico e giuridico. L'accertamento dell'effettiva sussistenza di tali conoscenze sarà operato mediante prova scritta non selettiva, consistente nella risposta a quesiti proposti con soluzioni alternative pre-formulate.   																							<br />
+																											<br />
+												
+														</span>
+						</div>
+					</div>
+				 
+								 
+								 
+								 
+			 
+		 
+								
+									<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#T5T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A4.a</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#T5T').slideToggle('slow'); ">Obiettivi formativi specifici del Corso</a></div>
+						</div> 
+						 
+						<div id="T5T" class="hidden bianco" >
+							<span>
+							Il percorso formativo è rivolto non solo alla magistratura ed alle professioni legali tradizionali (avvocato, notaio), ma anche alle funzioni di elevata responsabilità nei settori socio-economici e dell'informatica giuridica, nelle pubbliche amministrazioni, negli enti privati, nei sindacati, nelle organizzazioni comunitarie e internazionali.<br />
+	A tal fine si richiede il conseguimento:<br />
+- di un'approfondita cultura giuridica di base comprensiva del sistema giuridico statale e comunitario, integrata da tecniche e metodologie casistiche;<br />
+- di conoscenze storiche adeguate per la piena comprensione e valutazione degli istituti di diritto positivo alla luce della loro evoluzione storica;<br />
+- di capacità di elaborare testi giuridici (normativi, negoziali e processuali) chiari ed efficaci, anche attraverso l'utilizzazione di strumenti informatici;<br />
+- di padronanza dell'interpretazione, qualificazione ed analisi casistica;<br />
+- di piena capacità di utilizzare gli strumenti di aggiornamento delle proprie competenze.<br />
+	Per consentire la realizzazione di tali obiettivi, la formazione sarà comprensiva di discipline sia di base che caratterizzanti, con un'utilizzazione di materie affini ed integrative in funzione dei principali settori professionali cui la laurea dà accesso. <br />
+Il corso è quindi strutturato in modo da consentire lo sviluppo e l'approfondimento delle diverse aree tematiche delle discipline giuridiche. Le più significative sono: l'area del diritto privato/civile, l'area del diritto commerciale/tributario/del lavoro, l'area del diritto pubblico/costituzionale/amministrativo, l'area del diritto internazionale/comunitario.<br />
+Particolare attenzione sarà dedicata agli aspetti tecnici e metodologici da utilizzare anche per gli approfondimenti settoriali successivi ala laurea. La preparazione sarà completata con l'insegnamento del linguaggio giuridico e delle principali forme espressive di almeno una delle principali lingue straniere di ambito comunitario, nonché di un'adeguata padronanza dell'informatica giuridica.<br />
+																							<br />
+																											<br />
+												
+														</span>
+						</div>
+					</div>
+				 
+								 
+													<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#ST35T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A4.b</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#ST35T').slideToggle('slow'); ">Risultati di apprendimento attesi<br />Conoscenza e comprensione<br />Capacit&agrave; di applicare conoscenza e comprensione</a></div>
+						</div>  
+						<div id="ST35T" class="hidden bianco">
+							<span>
+							<table class="table-int-tab">
+									
+														<tr><td class="profilo-int-tab" colspan="3">	Discipline giuridiche nel loro complesso, suscettibili di essere specificate in relazione alle destinazioni professionali. </td> </tr>
+                            
+														<tr><td colspan="3"><b>Conoscenza e comprensione</b></td></tr>
+							<tr><td colspan="3">Il laureato in Giurisprudenza deve acquisire tutte le conoscenze indispensabili per inquadrare giuridicamente i rapporti sui quali dovrà prestare la propria opera nell'attività professionale prescelta. Dando per presupposto che le conoscenze giuridiche sono difficilmente divisibili in settori tra loro non comunicanti e che all'esperto di diritto viene richiesta una visione d'insieme del sistema giuridico, è possibile immaginare che ad alcune figure professionali (notaio) sarà richiesta una specifica competenza in area in senso lato privatistica (diritto privato, commerciale, tributario), mentre ad altre (esperto legale in enti pubblici) gioverà la specifica capacità di applicare le proprie conoscenze nell'area in senso lato pubblicistica (diritto pubblico, costituzionale, amministrativo). All'avvocato e al magistrato sarà richiesta la capacità di muoversi nei più diversi settori del diritto, attraverso un confronto con l'ordinamento nel suo complesso, più che nei singoli settori, per quanto specificamente oggetto d'indagine.<br>
+							 
+																					</td>
+							</tr>
+
+							
+							<tr><td colspan="3"><b>Capacit&agrave; di applicare conoscenza e comprensione</b></td></tr>
+							<td colspan="3">La formazione teorica di base durante il corso di laurea viene accompagnata da un'attenta individuazione delle più significative ricadute pratiche delle conoscenze che lo studente acquisisce. Nelle discipline giuridiche il profilo applicativo è centrale, sia in ambito giudiziale che in ambito stragiudiziale. A questo scopo, il bagaglio culturale e le specifiche propensioni acquisite dallo studente sono progressivamente orientate, nel percorso formativo, allo svolgimento delle attività professionali che costituiscono lo sbocco ideale del corso di laurea. <br />
+<br />
+Le conoscenze e capacità sono conseguite e verificate nelle seguenti attività formative:<br />
+Logica e argomentazione giuridica e sociologia del diritto con elementi di deontologia professionale e informatica giuridica;<br />
+Legislazione penale complementare (mutuata da Diritto penale speciale della laurea in Diritto dell'impresa, del lavoro e delle pubbliche amministrazioni;<br />
+Storia del pensiero economico;<br />
+Spagnolo giuridico.<br>
+							<br>
+							<b>Le conoscenze e capacit&agrave;  sono conseguite e verificate nelle seguenti attivit&agrave;  formative:</b>
+							<br>
+		
+															<div id="DUB21C">
+										<a href="#5" onclick=" $('#DUB21C').slideUp('slow'); $('#DUB21A').slideDown('slow');">Visualizza Insegnamenti<br /></a>
+									</div>
+		
+								<div id="DUB21A" class="hidden">
+									<a href="#5" onclick=" $('#DUB21A').slideUp('slow'); $('#DUB21C').slideDown('slow');">Chiudi Insegnamenti<br /></a>
+
+																		DIRITTO COSTITUZIONALE I <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO I <a href="http://www.jus.unipi.it">url</a><br>
+																		ECONOMIA POLITICA <a href="http://www.jus.unipi.it">url</a><br>
+																		FILOSOFIA DEL DIRITTO <a href="http://www.jus.unipi.it">url</a><br>
+																		INFORMATICA GIURIDICA - SAI@UNIPI.IT <a href="http://www.jus.unipi.it">url</a><br>
+																		INGLESE GIURIDICO <a href="http://www.jus.unipi.it">url</a><br>
+																		ISTITUZIONI DI DIRITTO ROMANO <a href="http://www.jus.unipi.it">url</a><br>
+																		STORIA DEL DIRITTO ROMANO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO COSTITUZIONALE II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO INTERNAZIONALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO II <a href="http://www.jus.unipi.it">url</a><br>
+																		SISTEMI GIURIDICI COMPARATI <a href="http://www.jus.unipi.it">url</a><br>
+																		STORIA DEL DIRITTO I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO E LETTERATURA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PROCESSUALE MONOGRAFICO <a href="http://www.jus.unipi.it">url</a><br>
+																		FRANCESE GIURIDICO <a href="http://www.jus.unipi.it">url</a><br>
+																		GOVERNO REGIONALE NELLO SPAZIO GIURIDICO EUROPEO <a href="http://www.jus.unipi.it">url</a><br>
+																		POLITICA MONETARIA E FINANZIARIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO AMMINISTRATIVO I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DEL LAVORO I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELL'UNIONE EUROPEA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PENALE I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO III <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO COMMERCIALE I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO ECCLESIASTICO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO COMPARATO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PROCESSUALE CIVILE I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO TRIBUTARIO <a href="http://www.jus.unipi.it">url</a><br>
+																		SCIENZA DELLE FINANZE <a href="http://www.jus.unipi.it">url</a><br>
+																		ANALISI ECONOMICA DEL DIRITTO <a href="http://www.jus.unipi.it">url</a><br>
+																		ANALISI GIURIDICA DELL' ECONOMIA <a href="http://www.jus.unipi.it">url</a><br>
+																		BIODIRITTO PRIVATO <a href="http://www.jus.unipi.it">url</a><br>
+																		COOPERAZIONE GIUDIZIARIA <a href="http://www.jus.unipi.it">url</a><br>
+																		CRIMINOLOGIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO AGRO-ALIMENTARE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO AGRO-AMBIENTALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO ANGLO-AMERICANO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO BANCARIO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO COMPARATO DELLE RELIGIONI <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DEGLI ENTI LOCALI <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DEI MERCATI FINANZIARI <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DEL TERZO SETTORE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELLA FAMIGLIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELLA NAVIGAZIONE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELLA PREVIDENZA E SICUREZZA SOCIALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELLA RESPONSABILITA' CIVILE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELL'ARBITRATO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO DELLE SUCCESSIONI <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO FALLIMENTARE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO INDUSTRIALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO INTERCULTURALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO INTERNAZIONALE PRIVATO E PROCESSUALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PARLAMENTARE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PENALE DELL'ECONOMIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PENALE INTERNAZIONALE E COMPARATO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PENITENZIARIO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO DELL'ECONOMIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PRIVATO EUROPEO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PROCESSUALE PENALE I E II <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PUBBLICO DELL'AMBIENTE E DELLO SVILUPPO SOSTENIBILE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO PUBBLICO DELL'ECONOMIA <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO REGIONALE <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO ROMANO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO SANITARIO <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO SINDACALE  E DELLE RELAZIONI INDUSTRIALI <a href="http://www.jus.unipi.it">url</a><br>
+																		DIRITTO URBANISTICO <a href="http://www.jus.unipi.it">url</a><br>
+																		DISCIPLINA DEL MERCATO E TUTELA DEL CONSUMATORE <a href="http://www.jus.unipi.it">url</a><br>
+																		ECONOMIA AZIENDALE <a href="http://www.jus.unipi.it">url</a><br>
+																		GIUSTIZIA AMMINISTRATIVA <a href="http://www.jus.unipi.it">url</a><br>
+																		GIUSTIZIA COSTITUZIONALE ITALIANA E COMPARATA <a href="http://www.jus.unipi.it">url</a><br>
+																		LIBERTA' COSTITUZIONALI <a href="http://www.jus.unipi.it">url</a><br>
+																		MEDICINA LEGALE <a href="http://www.jus.unipi.it">url</a><br>
+																		ORDINAMENTO GIUDIZIARIO ITALIANO E COMPARATO <a href="http://www.jus.unipi.it">url</a><br>
+																		ORGANIZZAZIONE DEL GOVERNO E DELLA PUBBLICA AMMINISTRAZIONE <a href="http://www.jus.unipi.it">url</a><br>
+																		POLITICHE DELL'UNIONE <a href="http://www.jus.unipi.it">url</a><br>
+																		STORIA COSTITUZIONALE <a href="http://www.jus.unipi.it">url</a><br>
+																		TEORIA GENERALE DEL DIRITTO <a href="http://www.jus.unipi.it">url</a><br>
+																		TEORIA GENERALE DEL PROCESSO <a href="http://www.jus.unipi.it">url</a><br>
+																		TUTELA MULTILIVELLO DEI DIRITTI FONDAMENTALI <a href="http://www.jus.unipi.it">url</a><br>
+																	<div>
+														</td></tr>
+		
+									
+							</table>
+
+							</span>
+						    	
+						</div>
+					</div>
+				 
+								
+										<div class="table-tab">
+					
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#STB4AT').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A4.c</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#STB4AT').slideToggle('slow'); ">Autonomia di giudizio<br />Abilit&agrave;  comunicative<br />Capacit&agrave;  di apprendimento</a></div>
+						</div>  
+						<div id="STB4AT" class="hidden bianco">
+							<span>
+							<table class="table-int-tab">
+
+														<tr><td><b>Autonomia di giudizio</b></td>
+							<td>
+								
+								<br />Il corso di laurea mira a formare una figura di esperto di diritto perfettamente in grado di utilizzare i più moderni supporti informatici che consentono un costante aggiornamento nei settori giuridici in continua evoluzione. Tuttavia, per compensare il rischio di un'informazione appiattita su modelli omologati, gli insegnamenti che vengono impartiti hanno costante attenzione all'esigenza di fornire capacità critiche e ricostruttive autonome  e personali, in modo che all'esperto di diritto che consegue la laurea magistrale sia data la possibilità di acquisire la necessaria capacità di giudizio in perfetta autonomia rispetto al ripetitivo formarsi di orientamenti standardizzati. In altri termini, è cura precipua del corso sovrintendere alla preparazione di un giurista in linea con l'informazione necessaria a una società globalizzata, ma non per questo privo della capacità di elaborare e fornire un contributo di giudizio autonomo, in grado di orientare anziché di essere influenzato.							
+																								
+											
+							</td><td>
+									</div>
+							</td>
+							</tr>
+
+							<tr><td class="profilo-int-tab" colspan=3>&nbsp;</td></tr>
+
+														<tr><td><b>Abilit&agrave;  comunicative</b></td>
+							<td>
+																<br />La capacità di comunicazione è fondamentale per la figura del giurista, non soltanto nel senso più tradizionale che caratterizza le professioni forensi, attraverso l'abilità argomentativa. Il laureato in giurisprudenza è anche soprattutto colui che, da un lato, traduce in linguaggio giuridico le esigenze (sociali ed economiche in senso ampio) con cui viene a contatto nell'esercizio della sua professione, e che, dall'altro, traduce il linguaggio giuridico in termini adatti alla comprensione delle istanze che si trova a dover fronteggiare. Le abilità comunicative del laureato in giurisprudenza devono condurlo anche alla comunicazione con mondi e sistemi diversi da quelli nazionali, e per realizzare questa finalità il corso di laurea ritiene irrinuncialbile la conoscenza delle lingue e dei linguaggi giuridici stranieri e comunitari.																																											
+							</td><td>
+								
+							
+							</td>
+							</tr>
+
+							<tr><td class="profilo-int-tab" colspan=3>&nbsp;</td></tr>
+
+														<tr><td><b>Capacit&agrave;  di apprendimento</b></td>
+							<td>
+																<br />Il laureato in giurisprudenza acquisisce, all'esito del percorso formativo a ciclo unico, la capacità di costante rinnovamento del proprio apprendimento e di aggiornamento della propria preparazione. Lo studente che intenda intraprendere studi successivi alla laurea è perfettamente in grado, sia per conoscenze, sia per metodo, di affronatre con alto grado di autonomia qualunque percorso formativo ulteriore. Scuola legale, scuola forense, master, scuole di perfezionamento e di preparazione alle professioni legali, dottorati di ricerca sono tutte opportunità che, pur nella loro diversità in funzione dell'obiettivo da raggiungere, risultano pienamente accessibili in ragione della preparazione acquisita durante il corso di laurea quinquennale a ciclo unico.																																											
+							</td><td>
+
+							</td>
+							</tr>
+
+							</table>
+							</span>
+						</div>
+					
+					</div>
+
+				 
+			 
+		 
+								
+				 
+								 
+								 
+								 
+			 
+		 
+								
+				 
+								 
+								 
+								 
+			 
+		 
+								
+				 
+								 
+								 
+								 
+			 
+		 
+								
+									<div class="table-tab">
+						<div class="espandi">
+						    <div class="btn-espandi"><a href="#3" onclick=" $('#T13T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO A5</p></a></div>
+						    <div class="titolo-espandi"><a href="#3" onclick=" $('#T13T').slideToggle('slow'); ">Prova finale</a></div>
+						</div> 
+						 
+						<div id="T13T" class="hidden bianco" >
+							<span>
+							Elaborazione e discussione, nel corso di un esame finale, di un lavoro scritto su un argomento monografico, relativo ad una materia scelta dal candidato. 																							<br />
+																											<br />
+												
+														</span>
+						</div>
+					</div>
+				 
+								 
+								 
+								 
+			 
+		 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+					 
+	 
+     
+
+    
+
+
+    
+
+  
+ 
+
+
+<div style="clear: both"></div></div>
+	<div id="SUAtabs-3">
+
+
+
+    
+
+
+     
+
+
+	<h2>B1 Descrizione del percorso di formazione  e dei metodi di accertamento </h2>
+	
+		
+		<div class="table-tab">					
+		<div class="espandi">
+		    <div class="btn-espandi"><a href="#3" onclick=" $('#T60T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B1.a</p></a></div>
+		    <div class="titolo-espandi"><a href="#3" onclick=" $('#T60T').slideToggle('slow'); ">Descrizione del percorso di formazione</a></div>
+		</div>  
+
+		<div id="T60T" class="hidden bianco" >
+			<span>
+			Pdf inserito: <a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T60" target="_blank">visualizza</a>
+			<br />Descrizione Pdf: Percorso formativo laurea magistrale a ciclo unico in Giurisprudenza						
+			</span>
+		</div>
+	</div>	
+
+	<!-- ------------------ B.1b + (solo per CdS telematici) B.1c e B.1d ------------------- -->
+	
+																																																																																										<br />
+			
+								<div class="table-tab">
+									
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T50T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B1.b</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T50T').slideToggle('slow'); ">Descrizione dei metodi di accertamento </a></div>
+					</div>  
+					<div id="T50T" class="hidden bianco" >
+						<span>
+																			La modalità di accertamento di conoscenze e capacità di comprensione dipende dal contesto disciplinare e dalla specifica attività didattica; può essere l'esame tradizionale (prova scritta, orale, pratica, test) oppure la preparazione e la discussione di un elaborato progettuale di laboratorio o di approfondimento monografico. <br />
+Ogni insegnamento riportato nella descrizione del percorso formativo del corso di studio, al Quadro B1.a, contiene le specifiche modalità di verifica finale.<br />
+
+															<br /><b>
+								Ogni "scheda insegnamento", in collegamento informatico al Quadro A4-b, indica, oltre al programma dell'insegnamento, 
+								anche il modo cui viene accertata l'effettiva acquisizione dei risultati di apprendimento da parte dello studente. 
+								</b><br />
+																			<br />
+																								<br />
+															
+						</span>
+
+					</div>
+				</div>	
+																																																																																																																																																																																																																																																																																																																																										
+
+<!-- ---------------------------------------------------------------- -->
+		<h2>B2 Calendario e orario delle attivit&agrave;  formative e date delle prove di verifica dell'apprendimento.</h2>		
+		<!-- ------------------ B.2a ------------------- -->
+				<div class="table-tab">
+		
+		<div class="espandi">
+		    <div class="btn-espandi"><a href="#3" onclick=" $('#B2a').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B2.a</p></a></div>
+		    <div class="titolo-espandi"><a href="#3" onclick=" $('#B2a').slideToggle('slow'); ">Calendario del Corso di Studio e orario delle attivit&agrave;  formative </a></div>
+		</div>  
+		<div id="B2a" class="hidden bianco" > 
+		<span>
+	
+			
+									    						  						  					
+		  		   	 	 
+		   	 		 <a href="http://www.jus.unipi.it/index.php?pagina=blocco_news&blocco=33" target="_blank">http://www.jus.unipi.it/index.php?pagina=blocco_news&blocco=33</a>	<br />
+		   	  
+		  		   	  
+		  		   	  
+		  		</span>
+
+		</div>
+		</div>	
+		
+		<!-- ------------------ B.2b ------------------- -->	
+			
+		<div class="table-tab">
+				<div class="espandi">
+		    <div class="btn-espandi"><a href="#3" onclick=" $('#B2b').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B2.b</p></a></div>
+		    <div class="titolo-espandi"><a href="#3" onclick=" $('#B2b').slideToggle('slow'); ">Calendario degli esami di profitto</a></div>
+		</div>  
+		<div id="B2b" class="hidden bianco" >
+			<span>
+																			  								    								  							
+			  			   	  
+			  			   	 	 
+			   	 		 <a href="http://www.jus.unipi.it/index.php?pagina=pagine&id=36" target="_blank">http://www.jus.unipi.it/index.php?pagina=pagine&id=36</a>	<br />
+			   	  
+			  			   	  
+			  			
+		  </span>
+
+		</div>
+		</div>	
+
+		<!-- ------------------ B.2c ------------------- -->
+				<div class="table-tab">
+				<div class="espandi">
+		    <div class="btn-espandi"><a href="#3" onclick=" $('#B2c').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B2.c</p></a></div>
+		    <div class="titolo-espandi"><a href="#3" onclick=" $('#B2c').slideToggle('slow'); ">Calendario sessioni della Prova finale</a></div>
+		</div>  
+		<div id="B2c" class="hidden bianco" >
+			<span>
+																		  								  								    							
+			  			   	  
+			  			   	  
+			  			   	 	 
+			   	 		 <a href="http://www.unipi.it/index.php/iscrizioni-e-segreterie/item/1603-calendari-appelli-di-laurea" target="_blank">http://www.unipi.it/index.php/iscrizioni-e-segreterie/item/1603-calendari-appelli-di-laurea</a><br />	
+			   	  
+			  		
+		  </span>
+
+		</div>
+		</div>	
+	
+
+<!-- --------------------------------------- -->
+		<h2>B3 Ambiente di apprendimento</h2>
+		<div class="table-tab">
+						
+		<div class="espandi">
+		    <div class="btn-espandi"><a href="#3" onclick=" $('#B3').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B3</p></a></div>
+		    <div class="titolo-espandi"><a href="#3" onclick=" $('#B3').slideToggle('slow'); ">Docenti titolari di insegnamento</a></div>
+		</div>  
+		<div id="B3" class="hidden bianco" >
+			<span>
+
+							Sono garantiti i collegamenti informatici alle pagine del portale di ateneo dedicate a queste informazioni.
+			<table class="table-espandi">
+			<tr><th>N.</th><th>Settori</th><th>Anno di corso</th><th>Insegnamento</th><th>Cognome Nome</th><th>Ruolo</th><th>Crediti</th><th>Ore</th><th>Docente di <br>riferimento per corso</th></tr>
+
+			  			  <tr>
+			  			  <td>1.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO PRIVATO I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>BRECCIA UMBERTO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>2.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO PRIVATO I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CECCHERINI GRAZIA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>3.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO PRIVATO I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>NAVARRETTA EMANUELA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>4.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO COSTITUZIONALE I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>DAL CANTO FRANCESCO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>5.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO COSTITUZIONALE I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>FAMIGLIETTI GIANLUCA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>9</td>
+			  	<td>24</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>6.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO COSTITUZIONALE I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>LOLLI ILARIA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>9</td>
+			  	<td>24</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>7.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO COSTITUZIONALE I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>MALFATTI ELENA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>8.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>DIRITTO COSTITUZIONALE I 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PERTICI ANDREA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>9.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ISTITUZIONI DI DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PROCCHI FEDERICO
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>10.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ISTITUZIONI DI DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PETRUCCI ALDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>11.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ISTITUZIONI DI DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>TERRENI CLAUDIA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>12.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>STORIA DEL DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PROCCHI FEDERICO
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>13.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>STORIA DEL DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PETRUCCI ALDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>14.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>STORIA DEL DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>TERRENI CLAUDIA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>15.</td>
+			  	<td>IUS/20</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>FILOSOFIA DEL DIRITTO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>BONSIGNORI FRANCO
+			  					  	</td>
+			  	<td></td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>16.</td>
+			  	<td>IUS/20</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>FILOSOFIA DEL DIRITTO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GRECO TOMMASO
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>17.</td>
+			  	<td>IUS/20</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>FILOSOFIA DEL DIRITTO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>RIPEPE EUGENIO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>18.</td>
+			  	<td>NN</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>INGLESE GIURIDICO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>FRANCESCHI DANIELE
+			  					  	</td>
+			  	<td></td>
+			  	<td>5</td>
+			  	<td>40</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>19.</td>
+			  	<td>NN</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>INFORMATICA GIURIDICA - SAI@UNIPI.IT 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>FERRARI GIAN-LUIGI
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>4</td>
+			  	<td>1</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>20.</td>
+			  	<td>SECS-P/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ECONOMIA POLITICA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>FAUCCI RICCARDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>21.</td>
+			  	<td>SECS-P/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ECONOMIA POLITICA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GIOCOLI NICOLA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>22.</td>
+			  	<td>SECS-P/01</td>
+			  	<td>Anno di corso 1</td>
+			  	<td>ECONOMIA POLITICA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SANNA STEFANO
+			  					  	</td>
+			  	<td></td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>23.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>BIODIRITTO PRIVATO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PALMERINI ERICA
+			  					  	</td>
+			  	<td></td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>24.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO DEI BENI COMUNI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PELLECCHIA ENZA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>24</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>25.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO DEI BENI COMUNI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SIRSI ELEONORA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>24</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>26.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO DELLA RESPONSABILITA' CIVILE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GIARDINA FRANCESCA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>27.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO DELLE SUCCESSIONI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PARDINI STEFANO
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>28.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PRIVATO DELL'ECONOMIA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PELLECCHIA ENZA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>29.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PRIVATO EUROPEO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>NAVARRETTA EMANUELA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>30.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PRIVATO II 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GIARDINA FRANCESCA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>31.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PRIVATO II 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PELLECCHIA ENZA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>32.</td>
+			  	<td>IUS/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DISCIPLINA DEL MERCATO E TUTELA DEL CONSUMATORE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CECCHERINI GRAZIA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>33.</td>
+			  	<td>IUS/02</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PRIVATO COMPARATO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CALDERAI VALENTINA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>34.</td>
+			  	<td>IUS/02,20007^IUS/21</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>SISTEMI GIURIDICI COMPARATI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PASSAGLIA PAOLO
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>35.</td>
+			  	<td>IUS/02,20007^IUS/21</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>SISTEMI GIURIDICI COMPARATI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>TARCHI ROLANDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>36.</td>
+			  	<td>IUS/03</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO AGRO-ALIMENTARE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SIRSI ELEONORA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>37.</td>
+			  	<td>IUS/05</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>ANALISI GIURIDICA DELL' ECONOMIA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PASSALACQUA MICHELA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>38.</td>
+			  	<td>IUS/06</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO DELLA NAVIGAZIONE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>NUZZO GABRIELE
+			  					  	</td>
+			  	<td>RD</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>39.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO COSTITUZIONALE II 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CATELANI ELISABETTA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>40.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO COSTITUZIONALE II 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>ROMBOLI ROBERTO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>24</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>41.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO COSTITUZIONALE II 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>VOLPE GIUSEPPE
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>42.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PARLAMENTARE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CONTI GIAN LUCA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>43.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>GIUSTIZIA COSTITUZIONALE ITALIANA E COMPARATA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>ROMBOLI ROBERTO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>24</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>44.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>GIUSTIZIA COSTITUZIONALE ITALIANA E COMPARATA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SPERTI ANGIOLETTA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>24</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>45.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>LIBERTA' COSTITUZIONALI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SPERTI ANGIOLETTA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>46.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA COSTITUZIONALE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>VOLPE GIUSEPPE
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>47.</td>
+			  	<td>IUS/08</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>TUTELA MULTILIVELLO DEI DIRITTI FONDAMENTALI 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>MALFATTI ELENA
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>48.</td>
+			  	<td>IUS/13</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO INTERNAZIONALE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CALAMIA ANTONIO MARCELLO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>49.</td>
+			  	<td>IUS/13</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO INTERNAZIONALE 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>MARTINES FRANCESCA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>50.</td>
+			  	<td>IUS/15,20015^IUS/16</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>TEORIA GENERALE DEL PROCESSO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>MARZADURI ENRICO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>51.</td>
+			  	<td>IUS/16</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO PROCESSUALE MONOGRAFICO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>BUONCRISTIANI DINO
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>52.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO ROMANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PETRUCCI ALDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>53.</td>
+			  	<td>IUS/18</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>FONDAMENTI DI DIRITTO EUROPEO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PETRUCCI ALDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>54.</td>
+			  	<td>IUS/19</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA DEL DIRITTO I 
+			  	 <i>(modulo di STORIA DEL DIRITTO I E II)</i>			  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GALLIGANI CHIARA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>55.</td>
+			  	<td>IUS/19</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA DEL DIRITTO I 
+			  	 <i>(modulo di STORIA DEL DIRITTO I E II)</i>			  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>LANDI ANDREA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>56.</td>
+			  	<td>IUS/19</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA DEL DIRITTO II 
+			  	 <i>(modulo di STORIA DEL DIRITTO I E II)</i>			  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>LANDI ANDREA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>57.</td>
+			  	<td>IUS/19</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA DEL DIRITTO II 
+			  	 <i>(modulo di STORIA DEL DIRITTO I E II)</i>			  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>MONTORZI MARIO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>9</td>
+			  	<td>72</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>58.</td>
+			  	<td>IUS/20</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO E LETTERATURA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>RIPEPE EUGENIO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>59.</td>
+			  	<td>IUS/20</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>TEORIA GENERALE DEL DIRITTO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>BRECCIA UMBERTO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>60.</td>
+			  	<td>IUS/21</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>DIRITTO ANGLO-AMERICANO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>PASSAGLIA PAOLO
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td>SI</td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>61.</td>
+			  	<td>IUS/21</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>GOVERNO REGIONALE NELLO SPAZIO GIURIDICO EUROPEO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>000000 00000
+			  					  	</td>
+			  	<td></td>
+			  	<td>6</td>
+			  	<td>21</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>62.</td>
+			  	<td>IUS/21</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>GOVERNO REGIONALE NELLO SPAZIO GIURIDICO EUROPEO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>STRADELLA ELETTRA
+			  					  	</td>
+			  	<td>RU</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>63.</td>
+			  	<td>NN</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>FRANCESE GIURIDICO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>CINI CARLOTTA
+			  					  	</td>
+			  	<td></td>
+			  	<td>5</td>
+			  	<td>40</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>64.</td>
+			  	<td>SECS-P/01</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>ANALISI ECONOMICA DEL DIRITTO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>GIOCOLI NICOLA
+			  					  	</td>
+			  	<td>PA</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>65.</td>
+			  	<td>SECS-P/02</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>POLITICA MONETARIA E FINANZIARIA 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>SANNA STEFANO
+			  					  	</td>
+			  	<td></td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			  <tr>
+			  			  <td>66.</td>
+			  	<td>SECS-P/04</td>
+			  	<td>Anno di corso 2</td>
+			  	<td>STORIA DEL PENSIERO ECONOMICO 
+			  				  	<a href="http://www.jus.unipi.it" target="_blank">link</a>
+			  	</td>
+			  	<td>FAUCCI RICCARDO
+			  					  	</td>
+			  	<td>PO</td>
+			  	<td>6</td>
+			  	<td>48</td>
+			  	<td></td> 
+			  	</tr>
+			  			</table>
+		
+			</span>
+
+		</div><!-- end if hidden -->
+	</div><!-- end if table-tab -->
+	
+	
+	
+
+<!-- ---------------------------------------------------------------- -->
+		
+	<h2>B4 Infrastrutture</h2>
+			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 
+
+			
+								<div class="table-tab">
+								
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T62T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B4</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T62T').slideToggle('slow'); ">Aule</a></div>
+					</div>  
+					<div id="T62T" class="hidden bianco" >
+						<span>
+																																										<br />
+												Pdf inserito: <a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T62" target="_blank">visualizza</a>
+						<br />Descrizione Pdf: aule didattiche Giurisprudenza									
+						</span>
+	
+					    	
+					</div>
+				</div>					
+			 		 			
+						 
+
+			
+								<div class="table-tab">
+								
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T63T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B4</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T63T').slideToggle('slow'); ">Laboratori e Aule Informatiche</a></div>
+					</div>  
+					<div id="T63T" class="hidden bianco" >
+						<span>
+																																										<br />
+												Pdf inserito: <a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T63" target="_blank">visualizza</a>
+						<br />Descrizione Pdf: Laboratori e aule informatiche Giurisprudenza									
+						</span>
+	
+					    	
+					</div>
+				</div>					
+			 		 			
+						 
+
+			
+								<div class="table-tab">
+								
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T64T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B4</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T64T').slideToggle('slow'); ">Sale Studio</a></div>
+					</div>  
+					<div id="T64T" class="hidden bianco" >
+						<span>
+																																				Link inserito: <a  class="modifica-testo" href="http://www.unipi.it/studenti/biblio/aulestudio.htm_cvt.htm" target="_blank">http://www.unipi.it/studenti/biblio/aulestudio.htm_cvt.htm</a>						<br />
+															
+						</span>
+	
+					    	
+					</div>
+				</div>					
+			 		 			
+						 
+
+			
+								<div class="table-tab">
+								
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T65T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B4</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T65T').slideToggle('slow'); ">Biblioteche</a></div>
+					</div>  
+					<div id="T65T" class="hidden bianco" >
+						<span>
+																																				Link inserito: <a  class="modifica-testo" href="http://www.sba.unipi.it/ius" target="_blank">http://www.sba.unipi.it/ius</a>						<br />
+															
+						</span>
+	
+					    	
+					</div>
+				</div>					
+			 		 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 			
+						 	 
+
+
+
+
+
+
+	
+<!-- ---------------------------------------------------------------- -->
+	<h2>B5 Servizi di contesto </h2>					 					 					 					 					 					 					 					 					 					 					 					 					 					 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T27T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T27T').slideToggle('slow'); ">Orientamento in ingresso</a></div>
+							</div>  
+							<div id="T27T" class="hidden bianco" >
+								<span>
+									Le azioni di orientamento in ingresso, volte a favorire una scelta di immatricolazione informata e consapevole, sono parte integrante della politica della qualità adottata dall'Ateneo. <br />
+Le molteplici attività organizzate sono dirette a permettere il contatto tra l'Ateneo e il maggior numero di potenziali studenti:<br />
+<br />
+Orientamento nelle scuole<br />
+L'orientamento viene svolto direttamente nelle scuole superiori, sia del principale bacino di provenienza che di altre regioni limitrofe ed anche del sud-Italia. Con il coinvolgimento di molti docenti universitari e con i professori delle scuole superiori, all'interno di questa iniziativa, l'Ateneo ha costruito percorsi didattici condivisi, riguardanti diverse discipline, da proporre agli studenti degli ultimi due anni delle scuole superiori.<br />
+<br />
+L'orientamento in telepresenza<br />
+E' attivo e in via di ampliamento anche il servizio di orientamento in telepresenza, che consente ai docenti di più scuole di accedere contemporaneamente alle presentazioni. <br />
+<br />
+L'orientamento su iTunesU<br />
+Sul sito iTunesU sono stati pubblicati i video di presentazione - brevi filmati in cui i docenti illustrano gli insegnamenti da loro tenuti - di circa ottanta corsi di studio dell'Ateneo pisano, suddivisi per area scientifica, umanistica e veterinaria.<br />
+<br />
+Saloni di orientamento<br />
+L'Università di Pisa partecipa abitualmente ai Saloni di orientamento, tra i quali quelli organizzati dalla Società Campus a Firenze, Roma, Bari, al salone Sicilia-Orienta organizzato a Palermo dall'Associazione Aster, alle manifestazioni OrientaMenti  e Informagiovani  promosse da istituzioni locali.<br />
+<br />
+Open days<br />
+L'Ateneo pisano organizza annualmente gli Open days, incontri di presentazione dell'offerta formativa, delle regole di accesso ai corsi di studio e dei servizi offerti agli studenti dall'Università. Nel corso dell'iniziativa sono previste visite guidate presso le varie strutture didattiche e di ricerca dell'Ateneo, le biblioteche, i musei e il Centro linguistico interdipartimentale, organizzate per classi o gruppi di classi.<br />
+I partecipanti sono inoltre coinvolti in attività di laboratorio e possono seguire alcune lezioni accademiche concepite specificamente per loro, confrontandosi direttamente con i docenti e con il personale esperto nell'orientamento didattico. Oltre ai vari punti di informazione organizzati in ciascun dipartimento, per tutta la durata della manifestazione viene attivato un punto di prima accoglienza e informazione sui servizi con personale del servizio Orientamento d'ateneo e con la presenza di operatori dell'Azienda Regionale per il Diritto allo Studio. <br />
+Il dato medio di affluenza è di 3.000/4.000 partecipanti provenienti da tutta la Toscana e anche da altre regioni.<br />
+<br />
+Il centro immatricolazioni Matricolandosi<br />
+Matricolandosi è il centro di ateneo per l'accoglienza delle future matricole dell'Università di Pisa, con l'obiettivo di agevolare il primo contatto con l'Ateneo attraverso la semplificazione delle procedure, ma anche di potenziare gli aspetti informativi e di immagine mettendo a disposizione degli studenti materiale informativo sui corsi di studio e personale esperto nell'orientamento didattico. L'uso di un portale web semplice ed intuitivo favorisce lo snellimento burocratico e consente di concludere l'iter di immatricolazione in tempo reale. Lo studente può registrare i propri dati personali, preimmatricolarsi ad un corso di studio libero, iscriversi a un concorso per l'ammissione ad un corso ad accesso programmato, iscriversi a un test di valutazione e riceve immediatamente il proprio libretto di iscrizione. <br />
+<br />
+<br />
+Welcome International Students (WIS) e il Welcome Point<br />
+All'attività di orientamento in entrata degli studenti internazionali sono dedicati due specifici servizi: il Welcome International Students e il Welcome Point.<br />
+Il servizio Welcome International Students (WIS) è uno sportello dedicato ai cittadini comunitari ed extracomunitari, residenti e non, che desiderano immatricolarsi all'Università di Pisa. Il servizio Welcome Point fornisce informazioni e supporto per tutto ciò che riguarda  visti, permessi di soggiorno, alloggi, assicurazione sanitaria, social security, ecc.<br />
+<br />
+<br />
+									<br />
+																		Link inserito: <a  class="modifica-testo" href="http://www.unipi.it/index.php/servizi-e-orientamento " target="_blank">http://www.unipi.it/index.php/servizi-e-orientamento </a>									<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T28T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T28T').slideToggle('slow'); ">Orientamento e tutorato in itinere</a></div>
+							</div>  
+							<div id="T28T" class="hidden bianco" >
+								<span>
+									Nella logica di  favorire un efficace svolgimento di carriera, l'Ateneo prevede  iniziative finalizzate a seguire gli studenti durante il loro percorso di studi:<br />
+<br />
+Il tutorato<br />
+L'attività di tutorato, compito istituzionale dei professori e dei ricercatori, è stata organizzata prevedendo l'assegnazione di uno specifico tutor ad ogni studente del corso di studio, immediatamente dopo l'immatricolazione, secondo criteri e modalità stabiliti dal consiglio di corso di studio d'intesa con il dipartimento in cui lo stesso è incardinato.<br />
+<br />
+Gli studenti counseling<br />
+A studenti selezionati che abbiano già acquisito un rilevante numero di crediti per il conseguimento del titolo di studio vengono affidati incarichi retribuiti finalizzati allo svolgimento di attività di tutorato di prima accoglienza, di ausilio alle attività di orientamento nelle scuole superiori e di supporto agli studenti iscritti. Lo studente counseling rappresenta uno dei principali strumenti del tutorato: l'esperienza di studenti che hanno già effettuato buona parte del percorso viene trasmessa a quelli che necessitano di un contributo di tipo orientativo o di tipo motivazionale in presenza di difficoltà riscontrate durante la vita accademica.<br />
+<br />
+Supporto psicologico e motivazionale: il Centro di Ascolto<br />
+Il Centro di Ascolto dell'Università di Pisa offre gratuitamente agli studenti una consulenza psicologica specifica allo scopo di aiutarli ad affrontare le diverse problematiche legate alla vita universitaria.<br />
+Il centro attiva periodicamente dei Laboratori di Gruppo che si realizzano attraverso cicli di incontri ai quali partecipano studenti provenienti da corsi di studio diversi, che offrono un approfondimento teorico e pratico sulle dimensioni rilevanti dell'apprendimento efficace, sulle componenti motivazionali dell'apprendimento e sulle concettualizzazioni dell'ansia.<br />
+Il Centro di Ascolto partecipa ogni anno alle iniziative di Orientamento organizzate dall'Ateneo e rivolte alle scuole superiori. In queste occasioni le psicologhe del Centro svolgono numerosi incontri di gruppo (anche con intere classi di studenti) e colloqui individuali con gli studenti interessati ad approfondire il tema della scelta del corso di studi.<br />
+<br />
+Il servizio USID per gli studenti disabili<br />
+L'Unità di Servizi per l'Integrazione degli Studenti Disabili ha lo scopo di assistere gli studenti disabili e favorire la loro integrazione all'interno del mondo universitario svolgendo attività di accompagnamento, di tutorato e di assistenza durante gli esami o le prove concorsuali.<br />
+L'USID acquista e fornisce ad alcuni studenti uno o più ausili in relazione alla tipologia della disabilità e alle esigenze rilevate durante i colloqui di accoglienza e di monitoraggio con lo studente e la sua famiglia. Dal 2011 è stato finanziato un progetto di ricerca e adattamento di nuovi strumenti, in collaborazione con il Dipartimento di Ingegneria Elettronica e il Centro Ausili della ASL.<br />
+L'USID bandisce borse di studio e di ricerca per l'estero, anche con finanziamenti esterni e segue gli studenti durante i tirocini e i periodi di inserimento lavorativo.<br />
+<br />
+									<br />
+																		Link inserito: <a  class="modifica-testo" href="http://www.unipi.it/index.php/servizi-e-orientamento" target="_blank">http://www.unipi.it/index.php/servizi-e-orientamento</a>									<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T29T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T29T').slideToggle('slow'); ">Assistenza per  lo svolgimento di periodi di formazione all'esterno (tirocini e stage) </a></div>
+							</div>  
+							<div id="T29T" class="hidden bianco" >
+								<span>
+									Anche per lo svolgimento di periodi di formazione all'estero per tirocini e stage gli studenti del Corso di Studio usufruiscono dei servizi del  settore Relazioni Internazionali dell'Ateneo, che tiene i contatti con le istituzioni partner e con le aziende disposte ad ospitare stagisti e segue le procedure legate all'emanazione dei bandi, alla formazione delle graduatorie e all'erogazione dei contributi.  Assiste inoltre gli studenti lungo tutto il periodo di permanenza all'estero.<br />
+Tale settore gestisce il Programma Erasmus che include anche l'Erasmus Placement  (SMP), cioè la mobilità studentesca (da 3 a 6 mesi) per lo svolgimento di stage curriculari presso imprese e istituzioni estere. <br />
+Nell'ambito del  Lifelong  Learning  Programme  (LLP) viene gestito  il bando Erasmus Consortia Pl-acement, destinato esclusivamente a tirocini formativi o stage professionalizzanti in un Paese dell'Unione Europea,  e il Programma Leonardo  che consente di effettuare un'esperienza di formazione e lavoro all'estero a chi  ha appena conseguito un diploma o una laurea.<br />
+A questi stage vanno aggiunti quelli finanziati sul Fondo Sociale Europeo che, per le esperienze all'estero, prevedono l'erogazione di borse finanziate.  <br />
+Altre opportunità sono offerte da bandi speciali fra cui può essere segnalato quello del Ministero Affari Esteri che consente di effettuare esperienze formative presso sedi del Ministero stesso, Istituti di Cultura, Ambasciate, Consolati etc..  <br />
+L'Ateneo partecipa inoltre al Programma Vulcanus nato con l'obiettivo di promuovere la cooperazione fra EU e Giappone e rivolto quindi agli studenti dell'Unione Europea che sono interessati ad effettuare un tirocinio presso un'industria giapponese.<br />
+									<br />
+																		Link inserito: <a  class="modifica-testo" href="http://www.unipi.it/index.php/opportunita-allestero/itemlist/category/78-studenti " target="_blank">http://www.unipi.it/index.php/opportunita-allestero/itemlist/category/78-studenti </a>									<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T30T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T30T').slideToggle('slow'); ">Assistenza e accordi per la mobilità internazionale degli studenti</a></div>
+							</div>  
+							<div id="T30T" class="hidden bianco" >
+								<span>
+									Gli studenti del Corso di Studio usufruiscono dei servizi del settore Relazioni Internazionali dell'Ateneo, che tiene i contatti con le istituzioni partner e segue tutte le procedure legate all'emanazione dei bandi, alla formazione delle graduatorie e all'erogazione dei contributi.  Assiste inoltre gli studenti lungo tutto il periodo di permanenza all'estero.<br />
+Il Programma di mobilità di maggior impatto è il Lifelong Learnig Programme(LLP)-Erasmus, nell'azione che prevede la mobilità per finalità di studio (SMS). Il periodo di studio all'estero va da 3 a 12 mesi, da trascor-rere presso un Istituto di Istruzione Superiore di uno dei paesi partecipanti al programma.<br />
+L'Università di Pisa ha stipulato più di 120 accordi quadro con Atenei delle varie parti del mondo per attività di cooperazione e di scambio nel campo della ricerca e della didattica, instaurando una rete di rap-porti che coinvolge tutti i settori i settori scientifico-disciplinari, con l'obiettivo di aumentare l'attrattività  dell'Ateneo verso gli studenti stranieri e di favorire la mobilità in entrata e in uscita. <br />
+L'Ateneo favorisce la mobilità dei propri studenti con iniziative come la stipula di specifici accordi per il con-seguimento di titoli congiunti - che comprendono lauree, lauree magistrali, master e dottorati - o per la preparazione della tesi di laurea all'estero. Quest'ultima iniziativa è offerta a laureandi delle lauree magi-strali e delle lauree magistrali a ciclo unico che siano interessati a preparare parte della loro tesi presso isti-tuzioni, enti o aziende straniere, europei ed extraeuropei. A questo scopo l'Ateneo mette a disposizione un contributo economico che viene erogato sulla base di una graduatoria di merito. <br />
+L'impulso al processo di internazionalizzazione ha portato al consolidamento dei tradizionali rapporti con Università di prestigio di ogni parte del mondo, in particolare europee e statunitensi, ma anche all'avvio di iniziative che hanno come obiettivo l'intensificazione dei rapporti con i Paesi emergenti, specie la Cina e i paesi dell'America latina. Nell'ambito delle azioni di internazionalizzazione verso queste ultime nazioni l'Ateneo ha approvato agevolazioni quali l'esenzione dalle tasse universitarie per tutti gli studenti latino-americani che si immatricolano a una laurea magistrale; ha sottoscritto, insieme ad altre  importanti uni-versità italiane, una convenzione di cooperazione internazionale tra Italia e Cile per creare una rete universitaria Italo  Cilena (rete REUCHI);   ha sottoscritto  il programma del Governo brasiliano  Scienza senza frontiere creando servizi di accoglienza con personale madrelingua per gli studenti brasiliani che hanno scelto Pisa come meta dei loro studi.   <br />
+<br />
+									<br />
+																		Link inserito: <a  class="modifica-testo" href="http://www.unipi.it/index.php/strategie-accordi-programmi " target="_blank">http://www.unipi.it/index.php/strategie-accordi-programmi </a>									<br />
+										
+									<br />
+																				Atenei in convenzione per programmi di mobilit&agrave;  internazionale
+																							<br /><i>Nessun Ateneo</i>
+																					
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T32T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T32T').slideToggle('slow'); ">Accompagnamento al lavoro</a></div>
+							</div>  
+							<div id="T32T" class="hidden bianco" >
+								<span>
+									Per la gestione e lo sviluppo delle iniziative finalizzate all'orientamento in uscita è attivo un servizio di Job Placement di ateneo a cui sono affidate le attività di accompagnamento al lavoro.<br />
+<br />
+L'Ateneo ha un proprio portale interattivo (http://jobplacement.unipi.it) rivolto a studenti e neo-laureati da un lato e alle aziende dall'altro lato. Attraverso il portale i laureati possono aggiornare il proprio curriculum e consultare le richieste delle aziende, le offerte di stage, tirocini, master etc. Le aziende possono  effettuare una preselezione dei curricula in base a criteri di ricerca predefiniti sulla base delle loro esigenze.<br />
+<br />
+La ricerca di contatti con le aziende avviene attraverso la partecipazione dell'ateneo a fiere del lavoro, anche a livello nazionale, e attraverso contatti con istituzioni e associazioni di categoria a livello locale e regionale (tra le quali Unioni industriali, Camere di commercio, CNA). <br />
+Si segnala in particolare la partecipazione alla Borsa Internazionale del Placement, una manifestazione annuale nell'ambito della quale vengono privilegiati gli incontri tra i referenti del placement delle università e i responsabili risorse umane di aziende nazionali e internazionali al fine di far nascere nuove collaborazioni.<br />
+<br />
+L'Ateneo organizza inoltre un proprio Career Day annuale, riservato non solo a realtà di grandi dimensioni, ma anche ad aziende locali, piccole e medie, che hanno interesse a conoscere più da vicino i laureati, le loro competenze e le caratteristiche della formazione universitaria. <br />
+Il servizio si completa con le presentazioni aziendali: negli ultimi anni sono state organizzate presso le strutture universitarie presentazioni con aziende di grandi dimensioni fra cui Boston Consulting Group, General Electric Transportation, Gruppo Generali, Johnson & Johnson Medical, Decathlon, Gruppo Reply  Altran, etc.<br />
+<br />
+Fra le attività di orientamento al lavoro è altresì prevista l'organizzazione di seminari rivolti a laureati e laureandi al fine di agevolarli nella ricerca del primo impiego. Si tratta di momenti formativi che hanno l'obiettivo di far acquisire, a chi si affaccia sul mercato del lavoro, strumenti e tecniche  atti a facilitarne la ricerca. Tale attività seminariale si è particolarmente intensificata nell'ultimo periodo i sia attraverso il coinvolgimento di esperti di risorse umane di grandi aziende (es. Monster), sia attraverso accordi con il centro per l'Impiego di Pisa e l'Azienda Regionale per il Diritto allo Studio.<br />
+Viene infine effettuato, da parte del personale dell'Ufficio Placement di ateneo, anche un servizio di counseling individuale per aiutare i neolaureati nella definizione del proprio profilo professionale.<br />
+<br />
+<br />
+Tirocini e stage<br />
+<br />
+L'ateneo gestisce i tirocini extracurriculari attraverso il portale web http://tirocini.adm.unipi.it che permette alle aziende di sottoporre proposte di convenzione per ospitare tirocinanti e ai neolaureati di candidarsi direttamente alle proposte pubblicate. <br />
+Le aziende convenzionate con l'Ateneo, presenti nel sistema, sono ad oggi 1.263, i tirocini attivati ogni anno sono circa 600.<br />
+Attraverso il portale vengono gestiti anche i tirocini finanziati sul Fondo Sociale Europeo con il contributo della Regione Toscana che prevedono l'erogazione di una borsa di diversa entità a seconda che il tirocinio sia in Italia o all'estero.<br />
+<br />
+L'Ateneo ha aderito al Programma FIxO (Formazione ed Innovazione per l'Occupazione), sostenuto dal Ministero del Lavoro e della Previdenza Sociale in collaborazione con le Università, al fine di finanziare tirocini finalizzati all'incremento dell'occupazione. Nel corso delle prime due fasi del programma sono stati attivati 236 tirocini extracurriculari della durata di 3 o 6 mesi, di cui 16 si sono trasformati in rapporti di lavoro e sono stati consolidati i servizi di placement e di Industrial Liason Office per favorire la progettazione di spin off accademiche, che si sono tradotti nella progettazione e realizzazione di 6 Project Work Innovazione, ossia tirocini extracurriculari della durata di sei mesi per lo sviluppo di progetti di innovazione e di trasferimento tecnologico, e di 5 percorsi di autoimprenditorialità, ossia strumenti per il sostegno dell'avvio di impresa. <br />
+La terza fase del programma, attualmente in corso, si sta focalizzando sullo strumento dell'alto apprendistato e sulla definizione e raggiungimento di specifici standard di qualità del servizio offerto. Una parte delle iniziative descritte si è trasformata in rapporti di lavoro.<br />
+									<br />
+																											<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T33T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B5</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T33T').slideToggle('slow'); ">Eventuali altre iniziative</a></div>
+							</div>  
+							<div id="T33T" class="hidden bianco" >
+								<span>
+									Il Dipartimento di Giurisprudenza, al quale il corso di laurea afferisce, promuove la cooperazione e la mobilità nel settore dell'istruzione instaurando relazioni ed accordi con molte sedi universitarie straniere, in particolare attraverso la partecipazione al programma LLP-Erasmus.<br />
+Ad esso si aggiungono la partecipazione a Progetti Alfa comunitari e a Corsi di dottorato congiunti, nonché numerose Convenzioni Bilaterali con sedi universitarie extracomunitarie; fre queste, ad esempio, le convenzioni bilaterali con la Zhongnan University of Economics and Law in Cina, con la Escuela libre de Derecho de México, con la Universidad Austral de Chile, con la Universidad Católica del Perú e con le Universidades do Parà e de Fortaleza in Brasile.									<br />
+																		Link inserito: <a  class="modifica-testo" href="http://www.rapp-int.jus.unipi.it/" target="_blank">http://www.rapp-int.jus.unipi.it/</a>									<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+				<h2>B6 - B7  Opinione degli studenti e dei laureati</h2>					<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T34T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B6</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T34T').slideToggle('slow'); ">Opinioni studenti</a></div>
+							</div>  
+							<div id="T34T" class="hidden bianco" >
+								<span>
+									Le opinioni degli studenti sono desumibili dai risultati dei questionari di valutazione della didattica che il Dipartimento ha messo a disposizione sul proprio sito e che sono consultabili collegandosi a:<br />
+http://www.jus.unipi.it/index.php?pagina=pagine&id=157.<br />
+									<br />
+									<br />Descrizione link: Sito del dipartimento di Giurisprudenza - Valutazione della didattica<br />									Link inserito: <a  class="modifica-testo" href="http://www.jus.unipi.it/index.php?pagina=pagine&id=157" target="_blank">http://www.jus.unipi.it/index.php?pagina=pagine&id=157</a>									<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					
+			
+									<div class="table-tab">
+							<div class="espandi">
+							    <div class="btn-espandi"><a href="#3" onclick=" $('#T51T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO B7</p></a></div>
+							    <div class="titolo-espandi"><a href="#3" onclick=" $('#T51T').slideToggle('slow'); ">Opinioni dei laureati</a></div>
+							</div>  
+							<div id="T51T" class="hidden bianco" >
+								<span>
+									Campione di 113 laureati nell'anno solare 2012<br />
+<br />
+DIDATTICA <br />
+Il 40,71% (46 laureati su 113) dichiara di aver frequentato più del 75% delle lezioni, il 27,43% di aver frequentato tra il 50 e il 75%; metà del restante 31,86% ha frequentato tra il 25 e 50% dei corsi, metà meno del 25% .<br />
+Il 35,4% dei rispondenti dichiara di considerare decisamente sostenibile il carico di studio affrontato complessivamente negli insegnamenti, il 58,41% dichiara che tale carico è stato complessivamente più sostenibile che non sostenibile, il 5,31% dichiara invece il contrario.<br />
+Alla domanda su un eventuale soggiorno di studio effettuato all'estero, 84,96% dei rispondenti dichiara di non averlo effettuato (96 laureati su 113); il 12,38% dichiara di averlo effettuato, di questi, i tre quarti valutano positivamente il supporto fornito dall'università durante tale esperienza all'estero.<br />
+Il giudizio complessivo sul corso di studi è positivo per  il 93,81% dei rispondenti (decisamente positivo per il 38,94%, notevolmente positivo per  il 54,87%), negativo per il 6,19%; 80,53% si dice convinto che, se tornasse indietro, sceglierebbe di nuovo lo stesso corso presso lo stesso ateneo, mentre circa il 7% cambierebbe corso di laurea (6,19% ne sceglierebbe un altro presso lo stesso Dipartimento).<br />
+<br />
+SERVIZI<br />
+In relazione alle attrezzature per laboratori ed esperienze pratiche, quasi un terzo (29,2%) dei rispondenti ritiene che esse siano inadeguate, ma più della metà (52,2%) dichiara di non averle mai utilizzate.<br />
+Il giudizio sulla fruizione dei servizi di biblioteca (prestito, consultazione, orari di apertura) è positivo per circa l'80% dei rispondenti (79,65%), negativo per circa il 16%. <br />
+Riguardo alle postazioni informatiche, riscontra inadeguatezza il 47% dei rispondenti, adeguatezza il 12%, ma circa il 40% dichiara di non averle mai utilizzate.<br />
+<br />
+STRUTTURE<br />
+Il giudizio sulle aule nelle quali si sono svolte le lezioni è positivo per 59,29% dei rispondenti; non le ritiene adeguate il 40,7%.<br />
+									<br />
+																											<br />
+										
+									<br />
+										
+								</span>
+			
+													</div>
+				</div>		
+			 		 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 					 	 
+    
+
+
+    
+
+  
+ 
+
+
+<div style="clear: both"></div></div>
+	<div id="SUAtabs-4">
+
+
+
+    
+
+
+     
+
+    
+
+
+
+																																																																																																																										<div class="table-tab">
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T25T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO C1</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T25T').slideToggle('slow'); ">Dati di ingresso, di
+percorso e di uscita</a></div>
+					</div> 
+					 
+					<div id="T25T" class="hidden bianco" >
+						<span>
+							I dati di ingresso, di percorso e di uscita degli studenti vengono di seguito presentati in forma sintetica. L'indicazione dettagliata è contenuta nel documento pdf allegato.<br />
+<br />
+IMMATRICOLATI<br />
+<br />
+Le immatricolazioni al corso di laurea magistrale in Giurisprudenza oscillano da un massimo di 734 iscritti nell'a.a. 2009-10 ad un minimo di 569 nel 2012-13, attestandosi su una media di circa 640 immatricolati nell'arco di sette anni, a partire dalla istituzione del corso magistrale a ciclo unico nell'A.A. 2006/07.<br />
+<br />
+Caratteristiche degli immatricolati<br />
+Regione di provenienza<br />
+Circa il 75% degli immatricolati proviene dall'ambito regionale, il restante 25% si divide per una metà proveniente quasi in egual misura dalla Liguria e dalla Sicilia, l'altra metà prevalentemente dalla Calabria e, in misura decrescente, rappresentata da studenti provenienti da Puglia, Campania, Basilicata, Lazio e Sardegna; in numero sporadico sono presenti immatricolati provenienti  da altre regioni del Nord e Sud Italia. <br />
+<br />
+Titolo di studio<br />
+Due terzi degli immatricolati provengono dai licei scientifico e classico; il 15% da Istituti tecnici; un altro 15% complessivamente da Licei linguistico e pedagogico (istituti magistrali). <br />
+<br />
+Voto al diploma di maturità<br />
+Negli ultimi due anni, confermando un trend consolidato, il 57% degli immatricolati ha conseguito un voto di maturità inferiore a 80, mentre circa il 33% si posiziona nella fascia 80-99; il 10% ha conseguito al diploma il punteggio massimo (100).<br />
+<br />
+DATI DI PERCORSO<br />
+Iscritti<br />
+Il calo degli iscritti nei passaggi d'anno si assesta tendenzialmente tra il 18% e il 20% tra 1° e 2° anno, abbattendosi a un valore inferiore al 3% nei passaggi d'anno successivi al secondo negli ultimi tre anni accademici.<br />
+<br />
+Passaggi in uscita<br />
+I dati dimostrano che il fenomeno è limitato a percentuali molto contenute (in media non superiori al 5%) nei primi tre anni di corso, che diventano irrisorie negli ultimi anni di corso									<br />
+<br />
+Rinunce<br />
+Rispetto ai passaggi in uscita, rilevano maggiormente sul calo degli iscritti le rinunce agli studi soprattutto al primo anno di corso (11-12%, picco del 14% nel 2009), con una discesa progressiva in relazione agli anni di corso successivi (già al secondo anno non si supera il 5%).<br />
+<br />
+Zero CFU<br />
+Il tasso di inattività, relativo agli studenti che non acquisiscono crediti (vale a dire non superano nessun esame) nell'arco di un anno, ha un'incidenza di poco superiore al 20% per gli studenti del primo anno, si attesta intorno al 5% per gli studenti del secondo anno e decresce a una soglia inferiore al 3% per gli iscritti al terzo e inferiore al 2% per quelli del quarto anno, evidenziando come periodo critico il primo anno di corso. La contrazione del tasso negli anni seguenti denota il miglior rendimento degli iscritti agli anni successivi.<br />
+										<br />
+CFU acquisiti  Voto medio degli esami superati<br />
+Negli anni recenti, i dati sul conseguimento di crediti mostrano una costante tendenza degli studenti attivi del primo anno ad acquisire mediamente solo metà dei 60cfu del proprio anno di corso (con una deviazione standard del 15.2 e del 17.3 rispettivamente per le coorti del 2012 e del 2011); il conseguimento di poco più di 60cfu avviene mediamente al termine del secondo anno (coorte del 2012 dev. s.&#61472;35.8, del 2011&#61472;dev. s.&#61472; 34.7).<br />
+La media dei voti conseguiti agli esami di profitto dalle matricole è stata pari a 25.4 (dev. s.&#61472;3.7) per la coorte del 2012 e a 25.6 (dev. s.&#61472; 3.4) per quella del 2011; gli iscritti al secondo anno della coorte 2012 hanno conseguito un voto medio di 26 (dev. s.&#61472;3.4) e di 25.7 (dev. s.&#61472;3.4) quelli a l secondo della coorte 2011. Negli anni di corso successivi il voto medio oscilla per tutte le coorti tra 25.6 e 26.4, con una deviazione standard compresa tra 3.1 e 3.4.<br />
+<br />
+DATI IN USCITA  LAUREATI<br />
+Gli studenti della laurea magistrale che hanno concluso il primo ciclo del corso di laurea (attivato nel 2006) regolarmente entro la durata quinquennale prevista sono stati 8 (2% degli iscritti al 5° anno); sono stati 88 i laureati al primo anno fuori corso della coorte di attivazione del CdS, pari a circa in quarto degli iscritti al 6° anno della propria coorte  (24%). Non hanno superato il 4% dei laureati in corso le due coorti successive.<br />
+<br />
+<br />
+<br />
+							<br />
+							
+																					<br />
+							
+							Pdf inserito: <a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T25" target="_blank">visualizza</a>
+							<br />										
+						</span>
+						<a  class="modifica-testo" href="https://ateneo.cineca.it/off270/sua/agg_dati.php?qualita=1&parte=502&id_rad=1501350&id_testo=T25" target="_blank"><img src="https://ateneo.cineca.it/off270/images/lente.png" border="0" title="Visualizza pdf" /></a>					</div>
+					
+				</div>
+																	<div class="table-tab">
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T26T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO C2</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T26T').slideToggle('slow'); ">Efficacia Esterna</a></div>
+					</div> 
+					 
+					<div id="T26T" class="hidden bianco" >
+						<span>
+							Su un totale di 64 laureati nell'anno 2011 è stato possibile intervistarne 31 a 12 mesi dal conseguimento del titolo.<br />
+<br />
+L'83,9% degli intervistati ha conseguito la laurea a un'età inferiore a 25 anni (di questi, sono maschi il 54,8%, femmine il 45,2%). Ad un anno di distanza, gli occupati sono quasi il 45%, di cui l'85,7% ha trovato impiego dopo la laurea e lavora stabilmente lungo l'arco dell'anno; il 71% ha un'occupazione a tempo pieno (part-time il 28,6%).<br />
+Tra coloro che si dichiarano occupati figura però un 57% di soggetti che non ha un contratto definito di lavoro dipendente né è autonomo, bensì altro (ad es. praticantato).<br />
+							<br />
+							
+																					<br />
+							
+										
+						</span>
+											</div>
+					
+				</div>
+																	<div class="table-tab">
+					<div class="espandi">
+					    <div class="btn-espandi"><a href="#3" onclick=" $('#T55T').slideToggle('slow'); "><div class="SUA_arrow"></div><p>QUADRO C3</p></a></div>
+					    <div class="titolo-espandi"><a href="#3" onclick=" $('#T55T').slideToggle('slow'); ">Opinioni enti e imprese con accordi di stage / tirocinio curriculare o extra-curriculare</a></div>
+					</div> 
+					 
+					<div id="T55T" class="hidden bianco" >
+						<span>
+							Poiché il corso di laurea magistrale in Giurisprudenza non richiede né a livello ordinamentale, né per disposizione regolamentare lo svolgimento di stage o tirocini presso enti o aziende, un'attività di questo tipo è lasciata alle scelte discrezionali dello studente e quindi non è stata presa in osservazione. <br />
+Peraltro, il corso di laurea fornisce agli studenti che scelgano di svolgere stage o tirocini tutta l'assistenza informativa, orientativa e di sostegno necessaria, oltre al supporto indispensabile all'attivazione della procedura di inserimento dello studente nella struttura prescelta. <br />
+Qualora ciò dovesse apparire necessario, tale attività verrà adeguatamente monitorata in futuro.							<br />
+							
+																					<br />
+							
+										
+						</span>
+											</div>
+					
+				</div>
+																																																																																																															    
+
+  
+ 
+
+
+<div style="clear: both"></div></div>
+</div>
+
+<div style="display: none">
+	<img id="SUAarrow" src="/images/sua/arrow-h.png" /></div>
+
+
+<script>	
+	$(document).ready(function(){
+		$('#SUAtabs').tabs();				
+		/*
+		$('.toSlide').css('cursor','pointer');
+		$('.toSlide').css('color','#00A3E4');
+		$('.toSlide').css('margin-top','40px');
+		*/
+	});
+</script>        </div>
+    </div> <!-- fine page -->
+</div>
+    <div id="footer">
+    	<div id="f-content-top">
+        	<ul>
+            	<li><h2>Studenti</h2>
+                	<ul>
+					    <li>Studente/Laureato					    	<ul>
+					        	<li><a href="/index.php/students/home">Compiere la giusta scelta</a></li>
+					        	<li><a href="/index.php/students/dovestudiare">Le mappe delle sedi</a></li>
+					        	<li><a href="/index.php/students/postlaurea">Il tuo percorso post-laurea</a></li>
+					        </ul>
+					    </li>
+					    <li>Sei straniero?					    	<ul>
+					        	<li><a href="/index.php/students/stranieri">Vuoi studiare in Italia?</a></li>
+					        </ul>
+					    </li>
+					    <li>Lavori?					    	<ul>
+					        	<li><a href="/index.php/students/lavoratore">Lavori e vuoi studiare?</a></li>
+					        </ul>
+					    </li>
+					
+						<li>Servizi studenti					    	<ul>
+					        	<li><a href="/index.php/students/servizi">Borse di studio</a></li>
+					        </ul>
+					    </li>
+				  	    <li>Disabili					    	<ul>
+					        	<li><a href="/index.php/students/disabili">Supporto agli studenti diversamente abili</a></li>
+					        </ul>
+					    </li>
+					</ul>           
+                </li>
+               	<li><h2>Famiglie</h2>
+                	<ul>
+                    	<li>Quale scelta?							<ul>
+								<li><a href="/index.php/family/home">Conoscere i percorsi di studio</a></li>
+							</ul>
+						</li>
+						<li>Le mappe delle sedi							<ul>
+								<li><a href="/index.php/family/presentamaps">Conoscere la collocazione geografica</a></li>
+							</ul>
+						</li>
+						
+						<li>Stranieri							<ul>
+								<li><a href="/index.php/family/stranieri">Laurearsi in Italia</a></li>
+							</ul>
+						</li>
+						
+						<li>Costi e sussidi							<ul>
+								<li><a href="/index.php/family/home">Conoscere le rette di ingresso e i sussidi di aiuto</a></li>
+							</ul>
+						</li>				
+						
+                    </ul>
+                </li>
+               	<li><h2>Scuola Superiore</h2>
+                	<ul>
+                    	<li>Lauree scientifiche							 <ul>
+						        <li><a href="/index.php/highered/laureescientifiche">Verifiche delle conoscenze per l'ingresso ai corsi di laurea scientifici</a></li>
+						    </ul>
+						</li>
+						
+						<li>Accesso programmato							 <ul>
+						        <li><a href="/index.php/highered/accessoprogrammatopresenta">Le prove di ammissione ai corsi ad accesso programmato</a></li>
+						    </ul>
+						</li>			
+						
+						<li>Dati e ricerca							<ul>
+						        <li><a href="/index.php/highered/anagrafe">Anagrafe degli Studenti</a></li>
+						        <li><a href="/index.php/highered/anagrafe">Rilevazioni Studenti</a></li>
+						        <li><a href="/index.php/highered/anagrafe">Iscritti</a></li>
+						    </ul>
+						</li>
+                    </ul>
+                </li>
+                <li><h2>Università</h2>
+                	<ul>
+                    	<li>Le Universit&agrave;			
+						<ul>
+				        	<li><a href="/index.php/university/universitaitalia">Gli Atenei si presentano</a></li>        	
+							<li><a href="/index.php/university/presentamaps/s/uni">Dove studiare</a></li>
+				    	</ul>	    		       
+					</li>
+					
+					<li>Le Accademie di Belle Arti						<ul>
+				        	<li><a href="/index.php/university/afamitalia">Le Accademie si presentano</a></li>
+							<li><a href="/index.php/university/presentamaps/s/acc">Dove studiare Accademie</a></li>
+				    	</ul>	    		       
+					</li>
+					
+					<li>I Conservatori						<ul>
+				        	<li><a href="/index.php/university/afamitalia">I Conservatori si presentano</a></li>        	
+							<li><a href="/index.php/university/presentamaps/s/con">Dove studiare Conservatori</a></li>
+				    	</ul>	    		       
+					</li>
+					
+					<li>Gli Istituti Tecnici Superiori(ITS)						<ul>
+				        	<li><a href="/index.php/university/itsitalia">Gli ITS si presentano</a></li>	        	
+							<li><a href="/index.php/university/presentamaps/s/its">Dove studiare</a></li>
+				    	</ul>	    		       
+					</li>
+                </ul>
+                </li>
+            </ul>
+        </div> <!-- fine f-content-top -->
+        <div id="f-content-bottom">
+        	<div id="f-content-bottom-sx">
+            	<ul>
+                	<li><a href="/index.php/contatti">Contatti</a></li>
+                    <li>|</li>
+                    <li><a href="/index.php/public/allnews">News e Scadenze</a></li>
+                    <li>|</li>
+                    <li><a href="/index.php/public/allfaq">FAQ</a></li>
+                    <li>|</li>
+                    <li><a href="http://www.youtube.com/user/universitaly?feature=results_main">Video e Multimedia</a></li>
+                    <li>|</li>
+                    <li><a href="/index.php/page/39">Glossario</a></li>
+                                    </ul>
+            </div>
+            <div id="f-content-bottom-dx">In collaborazione con <a href="http://www.cineca.it">Cineca</a></div>
+        </div>      </div> <!-- fine footer -->
+
+<script type="text/javascript"> try {
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-33307910-1']);
+ _gaq.push(['_trackPageview']);
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+} catch(err) {} </script>
+</body>
+</html>
