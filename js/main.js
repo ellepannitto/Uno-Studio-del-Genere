@@ -205,13 +205,12 @@ function gestoreRicerca(id)
 	for (var i=0; i<a.length; i++)
 	{
 		if(a[i]['sesso']=='M')
-			numero_uomini=parseInt(a[i]['numero']);
+			numero_uomini+=parseInt(a[i]['numero']);
 		else if(a[i]['sesso']=='F')
-			numero_donne=parseInt(a[i]['numero']);
+			numero_donne+=parseInt(a[i]['numero']);
 		else
 			errori=errori+parseInt(a[i]['numero']);
 	}
-	
 	generaGraficoBici(numero_uomini, numero_donne);
 		
 		
@@ -583,6 +582,7 @@ function ricercaAtenei(tl, bl, inner, tp, bp)
 function Init_miur()
 {
 	$("#loc_geografica").html("");
+	$("#warnings").html("");
 	
 	//Setto la visualizzazione di base del grafico
 	InizializzaGraficoBici();
@@ -731,6 +731,8 @@ function Init_cnr()
 	//Setto la visualizzazione di base del grafico
 	InizializzaGraficoBici();
 	
+	$("#loc_geografica").html("");
+	$("#warnings").html("");
 	
 	//creo gli elementi html necessari per la selezione dei parametri
 	$("#superaree").html(
