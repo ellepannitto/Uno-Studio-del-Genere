@@ -200,7 +200,7 @@ function gestoreRicerca(id)
 	}
 	
 	
-	var errori=0, numero_uomini=1, numero_donne=1;
+	var errori=0, numero_uomini=0, numero_donne=0;
 	
 	for (var i=0; i<a.length; i++)
 	{
