@@ -83,7 +83,7 @@
 			 GROUP BY organico.sesso";
 	//debug
 	//echo $select;
-	if( isset($_REQUEST["cdl"]) && count($_REQUEST["cdl"])>0 )
+	if(count($_REQUEST["cdl"])>0)
 	{
 		$r=select($mysqli, $select1);
 	}

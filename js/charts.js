@@ -46,8 +46,9 @@ function CreaGraficoUno(annoMin, annoMax)
 
 	var puntiM = [];
 	var puntiF = [];
+
 	max=0;
-	
+	/*r è un array di 1 array di oggetti */
 	for (i=0; i<r.length; i++)
 	{
 		for (j=0; j<r[i].length; j++)

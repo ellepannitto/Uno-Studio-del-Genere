@@ -31,18 +31,23 @@ $(document).ready(function(){
 		event.stopPropagation();
 		})
 	
-	$('.ricerca2').on("click",function(event)
+
+	$('#icona').on("click",function(event)
 	{
 		event.stopPropagation();
 		if(!dentro){
 			$('.ricerca2').animate({"left":"0"}, 1000, "swing");
+			d3.select("#Left").select("path").transition().attr("transform", "")
 			
 		}
 		else
 		{
 			$('.ricerca2').animate({"left":"50%"}, 1000, "swing");
+			d3.select("#Left").select("path").transition().attr("transform", "matrix(-1,0,0,-1,612,612)")
 		}	
 		dentro=!dentro;
 	});
+	
+	
 	
 });

@@ -842,9 +842,9 @@ function Init_cnr()
  * 
  * 
  * */
-function ImportaMappaItalia()
+function ImportaSVG(div, path)
 {
-	d3.xml("./img/italyHigh.svg", function(error, documentFragment) {
+	d3.xml(path, function(error, documentFragment) {
         if (error) 
         {
 			console.log(error); 
@@ -854,7 +854,7 @@ function ImportaMappaItalia()
         var svgNode = documentFragment
                     .getElementsByTagName("svg")[0];
     
-       $("#italia").html(svgNode);
+       $("#"+div).html(svgNode);
     })
 
 }
@@ -879,13 +879,15 @@ $(document).ready(function() {
 			switch(s){
 				case 'cnr':
 				{
-					ImportaMappaItalia();
+					ImportaSVG("italia",'./img/italyHigh.svg');
+					ImportaSVG("icona", './img/left133.svg');
 					Init_cnr();
 					break;
 				}
 				case 'miur':
 				{
-					ImportaMappaItalia();
+					ImportaSVG("italia",'./img/italyHigh.svg');
+					ImportaSVG("icona", './img/left133.svg');
 					Init_miur();
 					break;
 				}
@@ -893,7 +895,8 @@ $(document).ready(function() {
 		})
 		
 	//prima inizializzazione della pagina
-	ImportaMappaItalia();
+	ImportaSVG("italia", './img/italyHigh.svg');
+	ImportaSVG("icona", './img/left.svg');
 	Init_miur();
 	
 });
