@@ -24,26 +24,15 @@
 			case "profilo":
 			{
 				$r=select($mysqli, "SELECT distinct profilo FROM personale ORDER BY profilo");
-				$s='<label id="label_settore">Seleziona il profilo professionale:</label><br/>';
-				
-				for($i = 0; $i < count($r); $i++) 
-				{
-					$s=$s.'<input type="checkbox" name="profilo" id="'.$r[$i]['profilo'].'">'.$r[$i]['profilo'].'</input>';
-				};
-				echo $s;
+				echo json_encode($r);
 				break;
 			}
 			
 			case "sigla":
 			{
 				$r=select($mysqli, "SELECT distinct superarea FROM sigle");
-				$s='<label id="label_fascia">Seleziona il settore di appartenenza:</label><br/>';
-				
-				for($i = 0; $i < count($r); $i++) 
-				{
-					$s=$s.'<input type="checkbox" name="sigla" id="'.$r[$i]['superarea'].'">'.$r[$i]['superarea'].'</input>';
-				}
-				echo $s;
+			
+				echo json_encode($r);
 				break;
 			}
 			

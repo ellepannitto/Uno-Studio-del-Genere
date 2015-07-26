@@ -752,13 +752,24 @@ function Init_cnr()
 	$("#warnings").html("");
 	
 	//creo gli elementi html necessari per la selezione dei parametri
-	$("#superaree").html(
-		getPhpResponse("./api/parametri_cnr.php", "id=profilo")
-	);
+	var profili=JSON.parse(getPhpResponse("./api/parametri_cnr.php", "id=profilo"))
+	var s='<label id="label_settore">Seleziona il profilo professionale:</label><br/>';
+	for(var i=0; i<profili.length; i++)
+	{
+		s+='<input type="checkbox" name="profilo" id="'+profili[i]['profilo']+'">'+profili[i]['profilo']+'</input>';
+	}
 	
-	$("#fascia").html(
-		getPhpResponse("./api/parametri_cnr.php", "id=sigla")
-	);
+	$("#superaree").html(s);
+	
+	var sigle=JSON.parse(getPhpResponse("./api/parametri_cnr.php", "id=sigla"))
+	var s='<label id="label_fascia">Seleziona il settore di appartenenza:</label><br/>';
+	
+	for(var i=0; i<sigle.length; i++)
+	{
+		s+='<input type="checkbox" name="sigla" id="'+sigle[i]['superarea']+'">'+sigle[i]['superarea']+'</input>'
+	}
+	
+	$("#fascia").html(s);
 	
 	/*$("#dimensione").html("");*/
 	
