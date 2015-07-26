@@ -205,9 +205,9 @@ function gestoreRicerca(id)
 	for (var i=0; i<a.length; i++)
 	{
 		if(a[i]['sesso']=='M')
-			numero_uomini+=parseInt(a[i]['numero']);
+			numero_uomini=parseInt(a[i]['numero']);
 		else if(a[i]['sesso']=='F')
-			numero_donne+=parseInt(a[i]['numero']);
+			numero_donne=parseInt(a[i]['numero']);
 		else
 			errori=errori+parseInt(a[i]['numero']);
 	}
@@ -588,21 +588,38 @@ function Init_miur()
 	InizializzaGraficoBici();
 	
 	//creo gli elementi html necessari per la selezione dei parametri
-	$("#superaree").html(
-		getPhpResponse("./api/parametri_miur.php", "id=superaree")
-	);
+	
+	var superaree=JSON.parse(getPhpResponse("./api/parametri_miur.php", "id=superaree"))
+	var s='<label id="label_settore">Seleziona il settore scientifico disciplinare:</label><br/>';
+	for(i=0; i<superaree.length; i++)
+	{
+		s+='<input type="checkbox" name="superaree" id="'+superaree[i]['superarea']+'">'+superaree[i]['superarea']+'</input>'
+	}
+	
+	$("#superaree").html(s);
 	
 	/*$("#dimensione").html(
 		getPhpResponse("./api/parametri_miur.php", "id=popolazione")
 	);*/
 	
-	$("#fascia").html(
-		getPhpResponse("./api/parametri_miur.php", "id=fascia")
-	);
 	
-	$("#anno").html(
-		getPhpResponse("./api/parametri_miur.php", "id=anno")
-	);
+	var fasce=JSON.parse(getPhpResponse("./api/parametri_miur.php", "id=fascia"))
+	var s='<label id="label_fascia">Seleziona la fascia di appartenenza:</label><br/>';
+	
+	for(var i=0; i<fasce.length; i++)
+	{
+		s+='<input type="checkbox" name="fasce" id="'+fasce[i]['fascia']+'">'+fasce[i]['fascia']+'</input>';
+	}
+	
+	$("#fascia").html(s);
+	
+	var anni=JSON.parse(getPhpResponse("./api/parametri_miur.php", "id=anno"))
+	
+	var s='<label id="label_anni">Seleziona il periodo di riferimento:</label>'
+	s+='<form oninput="AnnoMinout.value=AnnoMin.value"><input type="range" name="AnnoMin" min="'+anni[0]['min']+'" max="'+anni[0]['max']+'" step="1" value="'+anni[0]['max']+'"><output name="AnnoMinout" for="AnnoMin">'+anni[0]['min']+'</output></form>'
+    s+='<form oninput="AnnoMaxout.value=AnnoMax.value"><input type="range" name="AnnoMax" min="'+anni[0]['min']+'" max="'+anni[0]['max']+'" step="1" value="'+anni[0]['min']+'"><output name="AnnoMaxout" for="AnnoMax">'+anni[0]['max']+'</output></form>';
+    
+	$("#anno").html(s);
 	
 	$("#cdl").html(
 		'<label id="label_cdl">Seleziona la docenza di riferimento:</label><br/><input type="checkbox" name="cdl" id="L_check" value="L">Corsi di Laurea Triennale</input><input type="checkbox" name="cdl" id="LM_check" value="LM">Corsi di Laurea Magistrale</input>'
